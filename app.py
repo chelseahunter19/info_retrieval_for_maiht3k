@@ -141,7 +141,7 @@ if __name__ == "__main__":
     start = time.time()
     stemmer = Stemmer.Stemmer("english")
     collection = None
-    client = chromadb.PersistentClient(path="./chroma_db")
+    client = chromadb.PersistentClient(path="chroma_db")
     
     st.title("Information retrieval for MAIHT3k")
     
