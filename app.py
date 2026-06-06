@@ -97,13 +97,8 @@ def write_keyword_highlighting(target_id, results, id_order_mapping):
     doc_tokens = bm25s.tokenize(doc, stemmer=stemmer)[1].keys()
     query_tokens = bm25s.tokenize(query, stemmer=stemmer)[1].keys()
 
-    query_token_positions = []
-    for i, doc_piece in enumerate(doc.split(" ")):
-        doc_piece_tokenized = bm25s.tokenize(doc_piece, stopwords=None, stemmer=stemmer)
-        vocab = list(doc_piece_tokenized[1])
-        if vocab:
-            if any([item in query_tokens for item in vocab]):
-                query_token_positions.append(i)
+    doc_piece_mapping = {doc_piece: list(bm25s.tokenize(doc_piece, stopwords=None, stemmer=stemmer)[1]) for doc_piece in set(doc.split(" "))}
+    query_token_positions = [i for i, item in enumerate(doc.split(" ")) if set(doc_piece_mapping[item]).intersection(set(query_tokens))]
     positions_grouped = []
     span_size = 10
     for i, position in enumerate(query_token_positions):
