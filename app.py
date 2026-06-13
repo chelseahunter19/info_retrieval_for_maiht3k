@@ -1,6 +1,7 @@
 
 
 import time
+import json
 
 import bm25s
 import chromadb
@@ -97,7 +98,8 @@ def write_keyword_highlighting(target_id, results, id_order_mapping):
     doc_tokens = bm25s.tokenize(doc, stemmer=stemmer)[1].keys()
     query_tokens = bm25s.tokenize(query, stemmer=stemmer)[1].keys()
 
-    doc_piece_mapping = {doc_piece: list(bm25s.tokenize(doc_piece, stopwords=None, stemmer=stemmer)[1]) for doc_piece in set(doc.split(" "))}
+    doc_piece_mapping = json.loads(results["metadatas"][id_order_mapping[target_id]]["doc_piece_mapping"])
+    #doc_piece_mapping = {doc_piece: list(bm25s.tokenize(doc_piece, stopwords=None, stemmer=stemmer)[1]) for doc_piece in set(doc.split(" "))}
     query_token_positions = [i for i, item in enumerate(doc.split(" ")) if set(doc_piece_mapping[item]).intersection(set(query_tokens))]
     positions_grouped = []
     span_size = 10
@@ -112,10 +114,8 @@ def write_keyword_highlighting(target_id, results, id_order_mapping):
     for position_group in positions_grouped:
         start = max(0, position_group[0]-span_size)
         end = min(position_group[-1]+span_size, len(doc.split(" "))-1)
+
         span_items = doc.split(" ")[start:end+1]
-        
-        for item in span_items:
-            temp = list(bm25s.tokenize(item, stopwords=None, stemmer=stemmer)[1])
         span_items_w_emphasis = []
         for item in span_items:
             # Need to not stem to match original text
@@ -128,6 +128,9 @@ def write_keyword_highlighting(target_id, results, id_order_mapping):
                         item = item.replace(token, f"<mark><strong>{token}</mark></strong>")
             span_items_w_emphasis.append(item)
         span = " ".join(span_items_w_emphasis)
+
+        #span = " ".join(doc.split(" ")[start:end+1])
+
         st.html(span)
 
 
@@ -150,9 +153,12 @@ if __name__ == "__main__":
             collection = client.get_collection(name="maiht3k_all")
         elif selected_category_options == ["Podcast transcripts"]:
             collection = client.get_collection(name="maiht3k_transcripts")
+            #collection = collection.get(where={"source": "transcripts"})
         elif selected_category_options == ["Newsletters"]:
             collection = client.get_collection(name="maiht3k_newsletters")
+            #collection = collection.get(where={"source": "newsletters"})
     
+
     query = st.text_input("Enter search query", "")
     
     if query and collection:
