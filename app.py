@@ -1,192 +1,343 @@
+"""Streamlit app for searching transcripts and newsletters pulling from
+ChromaDB collections. Can choose between sparse vectors (BM25), dense
+vectors (embedding model), or hybrid.
+"""
 
-
-import time
 import json
+import time
+from itertools import chain
+from operator import itemgetter
 
 import bm25s
 import chromadb
 import Stemmer
 import streamlit as st
+from bm25s.tokenization import Tokenized
+from chromadb.api.models.Collection import Collection
 
 
-def run_query_dense_embeddings(query, collection):
-    """Run query using dense embeddings
+def run_query_sparse_vectors(
+        query_tokenized: Tokenized,
+        collection: Collection,
+    ) -> dict[str, float]:
+    """Run query and rank document relevance using sparse vectors.
 
-    query: str
-    collection: chromadb collection
-    n_results: int
-    """
-
-    results = collection.query(
-        query_texts = [query],
-        n_results = collection.count()
-    )
-    ids_ordered = results["ids"][0]
-    return ids_ordered
-
-def run_query_sparse_embeddings(query, collection):
-    """Run query using sparse embeddings
-
-    query: str
-    collection: chromadb collection
-    n_results: int
-
+    Args:
+        query_tokenized: tokenized query object (tokenize beforehand so we only
+                         have to do it once)
+        collection: chromadb collection
     Returns:
-    ids in order of score
+        doc_score_map: mapping from title of document to score
     """
-
-    corpus = collection.get()["documents"]
-    #print(len(corpus))
-    #print(len(list(set(corpus))))
-    
-    ## Check out vocab
-    #corpus_tokens = bm25s.tokenize(corpus, stopwords=None, stemmer=stemmer)
-    #positions = corpus_tokens[0][0]
-    #vocab_mapping_reversed = {corpus_tokens[1][key]: key for key in corpus_tokens[1]}
-    #for position in positions:
-    #    print(vocab_mapping_reversed[position])
-
-    ## IDs first element, vocab second element
-    #for key in corpus_tokens[1]:
-    #    print(key, corpus_tokens[1][key])
-
-    # Map back to ids from collection object
-    mapping = dict(zip(collection.get()["ids"], corpus))
-    mapping_inverted = {mapping[key]: key for key in mapping}
-
-    #from collections import Counter
-    #counts = Counter(corpus)
-    #duplicates = [item for item, count in counts.items() if count > 1]
-    #print(len(duplicates))
-    
+    collection_filtered = collection.get(where=category_filter)
+    corpus = collection_filtered["documents"]
+    titles = [
+        item["title"]
+        for item in collection_filtered["metadatas"]
+    ]
+    doc_title_map = dict(zip(corpus, titles))
+    # Default parameter values are k1=1.5, b=0.75
     retriever = bm25s.BM25(corpus=corpus)
     retriever.index(bm25s.tokenize(corpus, stemmer=stemmer))
-    
-    docs_ordered, scores = retriever.retrieve(bm25s.tokenize(query, stemmer=stemmer), k=collection.count())
-    ids_ordered = [mapping_inverted[doc] for doc in docs_ordered[0]]
+    num_docs = len(corpus)
+    docs_ordered, scores = retriever.retrieve(
+        query_tokenized, k=num_docs
+    )
+    titles_ordered = [doc_title_map[doc] for doc in docs_ordered[0]]
+    doc_score_map = dict(zip(titles_ordered, scores[0]))
+    return doc_score_map
 
-    return ids_ordered, scores[0]
 
-def run_hybrid(ids_dense, ids_sparse):
-    """Run hybrid search ranking
+def run_query_dense_vectors(
+        query: str,
+        collection: Collection,
+    ) -> dict[str, float]:
+    """Run query and rank document relevance using dense vectors.
+
+    Args:
+        query: text of user query
+        collection: chromadb collection
+    Returns:
+        doc_score_map: mapping from title of document to score
     """
+    # ChromaDB collections use the all-MiniLM-L6-v2 embedding model by default
+    results = collection.query(
+        query_texts=[query],
+        where=category_filter,
+        n_results=len(collection.get(where=category_filter)["ids"]),
+    )
+    id_score_map = dict(zip(results["ids"][0], results["distances"][0]))
+    # Convert from cosine distance to cosine similarity
+    # cosine similarity = 1 - cosine distance
+    id_score_map = {key: 1 - id_score_map[key] for key in id_score_map}
+    doc_score_map = aggregate_scores_at_doc_level(
+        collection, id_score_map
+    )
+    doc_score_map = dict(
+        sorted(doc_score_map.items(), key=itemgetter(1), reverse=True)
+    )
+    return doc_score_map
 
-    # rank dictionary: mapping of id to rank number
-    rank_dense = dict(zip(ids_dense, range(len(ids_dense))))
-    rank_sparse = dict(zip(ids_sparse, range(len(ids_sparse))))
 
+def run_hybrid(
+        titles_sparse: list[str],
+        titles_dense: list[str],
+    ) -> dict[str, float]:
+    """Run hybrid ranking.
+
+    Uses Reciprocal Rank Fusion to combine sparse and dense rankings to get
+    hybrid score.
+
+    Args:
+        titles_sparse: list of titles in order of sparse ranking
+        titles_dense: list of titles in order of dense ranking
+    Returns:
+        hybrid_scores: mapping of titles to hybrid score, sorted in order of
+                       best to worst
+    """
+    # rank dictionary: map of title to rank number
+    rank_sparse = dict(zip(titles_sparse, range(len(titles_sparse))))
+    rank_dense = dict(zip(titles_dense, range(len(titles_dense))))
     hybrid_scores = {}
     k = 60
-    w_dense = 1
     w_sparse = 1
-    for key in rank_dense:
-        hybrid_scores[key] = (w_dense/(k+rank_dense[key])) + (w_sparse/(k+rank_sparse[key]))
+    w_dense = 1
+    for key in rank_sparse:
+        hybrid_scores[key] = (
+            (w_sparse / (k + rank_sparse[key]))
+            + (w_dense / (k + rank_dense[key]))
+        )
+    hybrid_scores = dict(
+        sorted(hybrid_scores.items(), key=lambda item: item[1], reverse=True)
+    )
+    return hybrid_scores
+
+
+def aggregate_scores_at_doc_level(
+        collection: Collection,
+        id_score_map: dict[str, float],
+    ) -> dict[str, float]:
+    """Aggregate chunk scores for each document so we have document-level scores.
     
-    hybrid_scores_sorted = sorted(hybrid_scores.items(), key=lambda item: item[1], reverse=True)
-    hybrid_ids_ordered = [item[0] for item in hybrid_scores_sorted]
-    return hybrid_ids_ordered
-
-def write_keyword_highlighting(target_id, results, id_order_mapping):
-    """Write snippets of document with keywords highlighted
-
-    target_id: str
-    results: dict
-    id_order_mapping: dict
+    Args:
+        collection: chromadb collection
+        id_score_map: mapping from ids to scores from running dense
+    Returns:
+        doc_score_map: mapping from document title to aggregated score
     """
+    metadata = collection.get(where=category_filter)["metadatas"]
+    doc_titles = list(set(chunk["title"] for chunk in metadata))
+    doc_score_map = {}
+    for doc_title in doc_titles:
+        # We won't need category_filter here because we've already narrowed down
+        # the documents
+        doc_chunk_ids = collection.get(where={"title": doc_title})["ids"]
+        scores = [id_score_map[doc_chunk_id] for doc_chunk_id in doc_chunk_ids]
+        #doc_score_map[doc_title] = sum(scores)/len(scores)
+        doc_score_map[doc_title] = max(scores)
+    return doc_score_map
 
-    doc = results["documents"][id_order_mapping[target_id]].strip()
-    doc_tokens = bm25s.tokenize(doc, stemmer=stemmer)[1].keys()
-    query_tokens = bm25s.tokenize(query, stemmer=stemmer)[1].keys()
 
-    doc_piece_mapping = json.loads(results["metadatas"][id_order_mapping[target_id]]["doc_piece_mapping"])
-    #doc_piece_mapping = {doc_piece: list(bm25s.tokenize(doc_piece, stopwords=None, stemmer=stemmer)[1]) for doc_piece in set(doc.split(" "))}
-    query_token_positions = [i for i, item in enumerate(doc.split(" ")) if set(doc_piece_mapping[item]).intersection(set(query_tokens))]
-    positions_grouped = []
+def write_keyword_highlighting(
+        collection: Collection,
+        target_id: str,
+        query_tokenized: Tokenized,
+    ) -> None:
+    """Write snippets of document with keywords highlighted.
+
+    Args:
+        collection: chromadb collection
+        target_id: id of document/chunk that we're displaying keywords for
+        query_tokenized: tokenized query object (tokenize beforehand so we only
+                         have to do it once)
+    """
+    id_collection = collection.get(ids=[target_id])
+    doc = id_collection["documents"][0].strip()
+    doc_pieces = doc.split(" ")
+    # Mapping of doc piece to not stemmed tokens
+    doc_piece_map = json.loads(
+        id_collection["metadatas"][0]["doc_piece_map"]
+    )
+    # Mapping of stemmed tokens to not stemmed tokens
+    token_map = json.loads(
+        id_collection["metadatas"][0]["token_map"]
+    )
+    # Keep only query tokens that are in document
+    query_tokens = set(query_tokenized[1].keys())
+    query_tokens = [
+        token for token in query_tokens if token in token_map.keys()
+    ]
+    # Not stemmed counterparts of the query tokens
+    not_stemmed_options = set(
+        chain.from_iterable([token_map[stemmed] for stemmed in query_tokens])
+    )
+    # Sort longest to shortest so we highlight longest first
+    # (e.g. cats before cat)
+    not_stemmed_options = sorted(
+        list(not_stemmed_options), key=len, reverse=True
+    )
+    # Find the positions of doc pieces that contain one of the
+    # not stemmed tokens
+    positions = [
+        i
+        for i, item in enumerate(doc_pieces)
+        if any(
+            not_stemmed in doc_piece_map[item] for not_stemmed in not_stemmed_options
+        )
+    ]
+    # Highlight the not stemmed token in each of those positions
+    for position in positions:
+        for not_stemmed in not_stemmed_options:
+            doc_pieces[position] = doc_pieces[position].replace(
+                not_stemmed, f"<mark><strong>{not_stemmed}</mark></strong>"
+            )
+    # Group highlighted portions into snippets to display
     span_size = 10
-    for i, position in enumerate(query_token_positions):
+    span_positions = [[i - span_size, i + span_size] for i in positions]
+    positions_grouped = []
+    for i in range(len(span_positions)):
         if i == 0:
-            positions_grouped.append([position])
+            positions_grouped.append(span_positions[i])
         else:
-            if position <= (query_token_positions[i-1] + span_size):
-                positions_grouped[-1].append(position)
+            # If span overlap (last position of previous span greater than
+            # or equal to first position of current span)
+            if span_positions[i - 1][1] >= span_positions[i][0]:
+                positions_grouped[-1][1] = span_positions[i][1]
             else:
-                positions_grouped.append([position])
+                positions_grouped.append(span_positions[i])
     for position_group in positions_grouped:
-        start = max(0, position_group[0]-span_size)
-        end = min(position_group[-1]+span_size, len(doc.split(" "))-1)
-
-        span_items = doc.split(" ")[start:end+1]
-        span_items_w_emphasis = []
-        for item in span_items:
-            # Need to not stem to match original text
-            item_tokenized = bm25s.tokenize(item, stopwords=None, stemmer=None, lower=False)
-            vocab = item_tokenized[1]
-            if vocab:
-                for token in list(vocab):
-                    # Need to stem now to match query tokens
-                    if list(bm25s.tokenize(token, stopwords=None, stemmer=stemmer)[1])[0] in query_tokens:
-                        item = item.replace(token, f"<mark><strong>{token}</mark></strong>")
-            span_items_w_emphasis.append(item)
-        span = " ".join(span_items_w_emphasis)
-
-        #span = " ".join(doc.split(" ")[start:end+1])
-
+        start = max(0, position_group[0])
+        end = min(position_group[-1], len(doc.split(" ")) - 1)
+        span_items = doc_pieces[start:end + 1]
+        span = " ".join(span_items)
         st.html(span)
 
 
-if __name__ == "__main__":
+def print_results(
+        collection: Collection,
+        top_docs: list[str],
+        doc_score_map: dict[str, float],
+        query_tokenized: Tokenized,
+    ) -> None:
+    """Print top search results.
 
+    Includes title, link, score, and text with keywords from query highlighted.
+
+    Args:
+        collection: chromadb collection
+        top_docs: list of titles of top ranking documents
+        doc_score_map: mapping of document title to score
+        query_tokenized: tokenized query object (tokenize beforehand so we only
+                         have to do it once)
+    """
+    for top_doc in top_docs:
+        # We won't need category_filter here because we've already narrowed down
+        # the documents
+        collection_subset = collection.get(where={"title": top_doc})
+        metadata_temp = collection_subset["metadatas"][0]
+        # Write results
+        st.markdown(f"##### [{metadata_temp['title']}]({metadata_temp['link']})")
+        with st.expander("Keyword matches"):
+            st.write(f"Score: {doc_score_map[top_doc]}")
+            ids = collection_subset["ids"]
+            for target_id in ids:
+                write_keyword_highlighting(collection, target_id, query_tokenized)
+
+
+if __name__ == "__main__":
     start = time.time()
     stemmer = Stemmer.Stemmer("english")
-    collection = None
     client = chromadb.PersistentClient(path="chroma_db")
-    
+    collection_full = client.get_collection(name="maiht3k_full")
+    collection_chunks = client.get_collection(name="maiht3k_chunks")
+    category_filter = None
+    # Decrease vertical white
+    st.markdown(
+        """
+        <style>
+        .block-container {
+            padding-top: 2.5rem;    /* Default is ~6rem */
+            padding-bottom: 2.5rem;
+            padding-left: 0rem;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    # Decrease vertical white space between elements
+    st.markdown(
+        """
+        <style>
+        [data-testid="stVerticalBlock"] {
+            gap: 0.7rem; /* Default is usually 1rem or higher */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     st.title("Information retrieval for MAIHT3k")
     
     # Define options
     with st.sidebar:
         st.sidebar.header("Options")
         n = int(st.text_input("Number of results", "5"))
-        selected_category_options = st.multiselect("Select one or more categories:", ["Podcast transcripts", "Newsletters"],
-                                                 default = ["Podcast transcripts", "Newsletters"])
-        if set(selected_category_options) == set(["Podcast transcripts", "Newsletters"]):
-            collection = client.get_collection(name="maiht3k_all")
-        elif selected_category_options == ["Podcast transcripts"]:
-            collection = client.get_collection(name="maiht3k_transcripts")
-            #collection = collection.get(where={"source": "transcripts"})
-        elif selected_category_options == ["Newsletters"]:
-            collection = client.get_collection(name="maiht3k_newsletters")
-            #collection = collection.get(where={"source": "newsletters"})
-    
+        cat_options = ["Podcast transcripts", "Newsletters"]
+        selected_cat_options = st.multiselect(
+            "Select one or more categories:",
+            cat_options,
+            default=cat_options,
+        )
+        search_methods = [
+            "Sparse vectors (BM25)", "Dense vectors (embedding model)", "Hybrid"
+        ]
+        selected_search_method = st.selectbox(
+            "Select search method:", search_methods
+        )
+        if set(selected_cat_options) == set(cat_options):
+            category_filter = {
+                "$or": [{"category": "transcripts"}, {"category": "newsletters"}]
+            }
+        elif selected_cat_options == ["Podcast transcripts"]:
+            category_filter = {"category": "transcripts"}
+        elif selected_cat_options == ["Newsletters"]:
+            category_filter = {"category": "newsletters"}
 
+    # Run query
     query = st.text_input("Enter search query", "")
-    
-    if query and collection:
-        # Calculate BM25 scores
-        ids_sparse, scores_sparse = run_query_sparse_embeddings(query, collection)
-        scores_mapping = {ids_sparse[i]: scores_sparse[i] for i in range(len(ids_sparse))}
-        
-        top_ids = ids_sparse[:n]
-        # Only keep if score above 0
-        top_ids = [top_id for top_id in top_ids if scores_mapping[top_id] > 0]
-        if len(top_ids) > 0:
-            top_n_sparse_results = collection.get(ids=top_ids)
-            id_order_mapping = {top_n_sparse_results["ids"][i]: i for i in range(len(top_n_sparse_results["ids"]))}
-    
-            for target_id in top_ids:
-                metadata_temp = top_n_sparse_results["metadatas"][id_order_mapping[target_id]]
-                # Write results
-                st.header(metadata_temp["title"])
-                st.write(metadata_temp["link"])
-                st.write(f"Score: {scores_mapping[target_id]}")
-    
-                # Keyword highlighting
-                write_keyword_highlighting(target_id, top_n_sparse_results, id_order_mapping)
-        else:
-            st.write("No results")
-    elif query and not collection:
+    if query and category_filter:
+        query_tokenized = bm25s.tokenize(query, stemmer=stemmer)
+        if selected_search_method == "Sparse vectors (BM25)":
+            # Rank documents using sparse vectors (BM25)
+            doc_score_map = run_query_sparse_vectors(
+                query_tokenized, collection_full
+            )
+            top_docs = list(doc_score_map.keys())[:n]
+            # For BM25, only keep if score above 0
+            top_docs = [
+                top_doc for top_doc in top_docs
+                if doc_score_map[top_doc] > 0
+            ]
+            if len(top_docs) > 0:
+                print_results(collection_full, top_docs, doc_score_map, query_tokenized)
+            else:
+                st.write("No results")
+        elif selected_search_method == "Dense vectors (embedding model)":
+            # Rank documents using dense vectors
+            doc_score_map = run_query_dense_vectors(
+                query, collection_chunks
+            )
+            top_docs = list(doc_score_map.keys())[:n]
+            print_results(collection_chunks, top_docs, doc_score_map, query_tokenized)
+        elif selected_search_method == "Hybrid":
+            map_sparse = run_query_sparse_vectors(query_tokenized, collection_full)
+            map_dense = run_query_dense_vectors(query, collection_chunks)
+            map_hybrid = run_hybrid(
+                map_sparse.keys(), map_dense.keys()
+            )
+            top_docs = list(map_hybrid.keys())[:n]
+            print_results(collection_full, top_docs, map_hybrid, query_tokenized)
+    elif query and not category_filter:
         st.write("Select at least one category")
     
-    
-    print(time.time()-start)
+    print(time.time() - start)
 
