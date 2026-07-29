@@ -1,0 +1,984 @@
+{"technology": ["Technology", "technology", "technology", "technology", "technology", "technology"], "researcher": ["researchers", "researcher", "researchers", "researchers", "researcher", "researchers", "researcher", "researchers"], "emily": ["Emily"], "m.": ["M."], "bender": ["Bender"], "and": ["and", "and", "and", "and", "And", "And", "And", "and", "and", "And", "And", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "And", "and", "and", "and", "And", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "And", "And", "and", "and", "and", "and", "and", "and", "And", "and", "And", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "And", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "And", "And", "And", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "And", "and", "And", "and", "and", "And", "and", "and", "and", "and", "And", "And", "and", "And", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "And", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "And", "and", "and", "and", "And", "and", "And", "and", "and", "and", "and", "And", "and", "and", "And", "and", "and", "and", "And", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "and", "And", "and", "and", "And", "and", "and", "and", "And"], "alex": ["Alex"], "hanna": ["Hanna"], "kick": ["kick", "kicking"], "off": ["off", "off", "off", "off", "off", "off", "off"], "the": ["the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "The", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the", "the"], "mystery": ["Mystery"], "ai": ["AI"], "hype": ["Hype", "hype", "hype", "hype", "hype"], "theater": ["Theater"], "3000": ["3000", "3000", "3000"], "series": ["series", "series", "series", "series", "series"], "by": ["by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "By", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by", "by"], "read": ["reading", "read", "reading", "reading", "reading", "read", "read", "reading", "read", "read", "read", "reading", "reading", "read", "read", "read", "read", "read", "read"], "through": ["through", "through", "through", "through"], ",": [",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ",", ","], "\"": ["\"", "\"", "\u201c", "\u201d", "\u201c", "\u201d", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201c", "\u201d", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201c", "\u201d", "\"", "\u201d", "\u201c", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\u201d", "\u201c", "\"", "\u201c", "\u201d", "\"", "\u201d", "\u201c", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\u201c", "\"", "\"", "\""], "can": ["Can", "can", "can", "ca", "can", "Can", "can", "can", "can", "can", "can", "can", "can", "can", "can", "can", "ca", "ca", "can", "can", "can", "can", "can", "ca", "can", "can", "can", "can", "can", "can", "ca", "ca", "ca", "can", "ca", "can", "ca", "can", "can", "can", "can"], "machine": ["machines", "Machines", "machine", "machine", "machines", "machine", "machines", "machines", "machine", "machine", "machine", "machine", "machines", "machines"], "learn": ["learn", "learn", "Learn", "learning", "learning", "learning", "learning", "learn", "learning", "learned", "learned", "learned", "learned", "learning", "learning", "learning", "learning"], "how": ["how", "how", "How", "How", "how", "how", "how", "how", "how", "how", "How", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how", "how"], "to": ["to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "na", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "na", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "na", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "To", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to", "to"], "behave": ["Behave", "behave", "behave"], "?": ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?"], "blaise": ["Blaise"], "aguera": ["Aguera"], "y": ["y", "y", "y"], "arcas": ["Arcas"], "a": ["a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "A", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "A", "a", "a", "a", "a", "a", "A", "A", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "A", "A"], "google": ["Google"], "vp": ["VP", "VP"], "who": ["who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "Who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who", "who"], "work": ["works", "work", "working", "work", "work", "working", "work", "work", "work", "works", "work", "worked", "work", "work"], "on": ["on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on"], "artificial": ["artificial", "artificial", "Artificial", "artificial", "artificial", "artificial", "artificial", "artificial"], "intelligence": ["Intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence", "intelligence"], ".": [".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", "."], "this": ["This", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "This", "This", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "This", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this", "this"], "episode": ["episode", "episode", "episode", "episode", "episode", "episode", "episode", "episodes"], "be": ["was", "is", "is", "'s", "'re", "'re", "'m", "'m", "am", "'m", "'s", "is", "be", "'s", "are", "is", "am", "are", "'re", "are", "are", "is", "'m", "'m", "'m", "be", "is", "is", "'m", "were", "been", "am", "was", "is", "'s", "is", "'s", "'s", "'m", "'m", "'s", "'re", "'re", "'s", "'re", "be", "'s", "be", "'re", "be", "is", "being", "was", "was", "were", "was", "was", "'re", "was", "was", "'m", "is", "'re", "'re", "is", "is", "'re", "'m", "'m", "'re", "was", "'re", "is", "is", "'m", "is", "was", "was", "is", "is", "is", "is", "are", "'s", "are", "'s", "'re", "'re", "'re", "is", "was", "'re", "is", "'s", "been", "was", "'re", "'re", "'re", "'re", "are", "'re", "be", "be", "was", "'m", "'s", "be", "'s", "'m", "is", "'re", "Were", "was", "are", "'s", "are", "being", "'m", "was", "was", "Is", "are", "'re", "is", "be", "be", "are", "'s", "is", "'s", "is", "'re", "'re", "are", "are", "'s", "'s", "'s", "'s", "'m", "'m", "'s", "is", "is", "'m", "is", "been", "'s", "been", "'s", "'s", "is", "is", "'m", "'s", "is", "is", "were", "is", "is", "was", "was", "is", "'s", "'s", "'s", "is", "'s", "was", "be", "been", "is", "were", "was", "were", "be", "is", "'s", "'s", "was", "be", "is", "are", "be", "'s", "is", "is", "were", "is", "'s", "am", "is", "is", "is", "is", "is", "Is", "is", "is", "is", "Is", "'s", "is", "was", "was", "'s", "been", "been", "is", "were", "was", "were", "were", "'m", "'m", "'s", "are", "'s", "is", "'s", "is", "is", "be", "'s", "is", "be", "'s", "was", "is", "are", "were", "be", "be", "'s", "is", "being", "'re", "'s", "Is", "'s", "are", "be", "is", "is", "'s", "is", "'re", "is", "is", "'s", "'m", "are", "'s", "is", "is", "'s", "is", "are", "'s", "be", "is", "'s", "is", "being", "'s", "'s", "'s", "'s", "be", "is", "be", "is", "is", "be", "'s", "be", "'s", "is", "were", "were", "'re", "is", "'s", "'s", "'s", "'s", "is", "'s", "'s", "'m", "are", "'s", "is", "'s", "'s", "'s", "be", "is", "'s", "are", "'m", "is", "'s", "'s", "'s", "be", "be", "'s", "were", "be", "be", "'s", "'s", "is", "is", "was", "'s", "'s", "'s", "was", "be", "are", "'re", "are", "'m", "'re", "were", "is", "are", "are", "'m", "'m", "'s", "'s", "'m", "be", "is", "'s", "is", "'re", "be", "'s", "be", "are", "are", "are", "is", "be", "'re", "'s", "'s", "is", "'m", "is", "is", "are", "'s", "'s", "is", "is", "'s", "was", "was", "was", "are", "'s", "'s", "were", "was", "am", "'m", "'s", "'m", "be", "are", "being", "was", "was", "is", "'re", "be", "be", "is", "'s", "is", "is", "'m", "is", "'s", "be", "be", "be", "be", "are", "were", "be", "'s", "be", "'re", "'re", "'s", "'s", "'s", "be", "is", "be", "are", "are", "are", "is", "be", "'m", "were", "is", "'re", "is", "'s", "is", "'m", "'m", "'s", "'s", "'m", "is", "'re", "being", "are", "'m", "is", "'s", "'s", "'m", "are", "is", "is", "is", "'s", "'m", "'s", "is", "'s", "was", "was", "are", "'s", "'s", "'m", "is", "'m", "is", "'s", "'s", "'s", "is", "'s", "'s", "'s", "'s", "is", "'s", "are", "are", "is", "are", "is", "be", "is", "be", "'s", "is", "'s", "'s", "'s", "is", "'s", "'s", "'s", "'s", "is", "is", "is", "is", "is", "was", "is", "be", "is", "be", "is", "be", "were", "was", "'s", "'re", "'re", "be", "is", "'s", "was", "were", "'s", "is", "'re", "'s", "'re", "'s", "'s", "is", "'m", "'s", "'s", "'re", "'re", "is", "are", "'m", "are", "'re", "'s", "is", "is", "are", "is", "'s", "'s", "is", "is", "'s", "are", "'s", "'re", "is", "is", "be", "is", "'s", "'s", "is", "are", "is", "'re", "'s", "are", "are", "are", "are", "'s", "'s", "is", "'s", "'m", "is", "be", "'m", "'s", "'s", "'s", "'s", "is", "'s", "'m", "being", "'s", "'s", "'s", "are", "'re", "'re", "is", "is", "be", "are", "'re", "'re", "is", "is", "is", "is", "are", "are", "are", "is", "is", "is", "'s", "'s", "is", "'m", "is", "'s", "is", "is", "is", "'s", "are", "is", "'s", "'s", "'s", "is", "is", "'s", "'s", "are", "'s", "are", "is", "is", "were", "'s", "be", "are", "is", "is", "were", "are", "'s", "'s", "'re", "'m", "'re", "'s", "'m", "'m", "'m", "'m", "are", "'s", "'s", "be", "be", "'s", "'s", "is", "is", "are", "being", "is"], "record": ["recorded", "recorded", "recording"], "in": ["in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "In", "in", "in", "in", "in", "in", "in", "In", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "In", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "In", "in", "In", "In", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in", "in"], "september": ["September"], "of": ["of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "Of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of", "of"], "2022": ["2022", "2022"], "second": ["second", "second", "second"], "three": ["three", "three", "Three", "three"], "about": ["about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about", "about"], "'": ["'", "'", "'", "\u2018", "\u2019", "\u2019", "\u2018", "\u2019"], "post": ["post", "post", "post"], "you": ["You", "you", "you", "you", "You", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "y'", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "You", "you", "you", "you", "You", "you", "you", "You", "you", "you", "you", "you", "you", "you", "You", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "You", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "you", "y'", "you", "you", "you", "You"], "also": ["also", "also", "also", "also", "also", "also", "also", "also", "also", "also", "also", "Also", "also", "also", "also", "also", "also", "also", "also", "Also", "also", "also", "also", "also", "also", "Also", "Also", "also", "also", "also", "also", "also", "also"], "watch": ["watch", "watched", "watched", "watch"], "video": ["video", "video", "video"], "peertube": ["PeerTube"], "check": ["Check"], "out": ["out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out", "out"], "future": ["future", "future", "future", "future", "future"], "stream": ["streams", "streams", "stream", "stream"], "twitch": ["Twitch", "Twitch"], "meanwhile": ["Meanwhile"], "send": ["send", "send"], "we": ["us", "us", "we", "We", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "us", "we", "we", "we", "we", "we", "we", "we", "we", "we", "We", "we", "We", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "we", "we", "we", "us", "We", "We", "us", "we", "we", "we", "us", "we", "We", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "We", "us", "we", "we", "us", "us", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "us", "we", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "we", "us", "we", "us", "we", "we", "we", "we", "we", "we", "We", "we", "we", "we", "we", "we", "We", "We", "us", "we", "we", "we", "we", "we", "we", "we", "we", "we", "us", "us", "We", "us", "us"], "any": ["any", "any", "any", "any", "any", "any", "any", "any", "any", "any", "any", "any"], "hell": ["Hell", "hell"], "see": ["see", "see", "see", "see", "see", "see", "see", "see", "see", "see", "see", "see", "seen", "seen", "see", "see", "see", "see", "see"], "find": ["Find", "find", "find", "find", "found", "find", "Find"], "our": ["our", "our", "our", "our", "our", "our", "our", "our", "our", "Our", "our", "our", "our", "our", "our", "our", "our", "our", "our", "our", "Our", "our", "our"], "book": ["book", "books", "books", "book", "book", "book", "books"], "con": ["Con"], "here": ["here", "here", "Here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here", "here"], "maiht3k": ["MAIHT3k"], "merch": ["merch", "merch"], "subscribe": ["Subscribe", "subscribe"], "newsletter": ["newsletter"], "via": ["via", "via"], "buttondown": ["Buttondown"], "follow": ["Follow", "Following"], "!": ["!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!"], "bluesky": ["Bluesky"], ":": [":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":", ":"], "emilymbender.bsky.social": ["emilymbender.bsky.social"], "mastodon": ["Mastodon"], "dair-community.social/@emilymbender": ["dair-community.social/@EmilyMBender"], "alexhanna.bsky.social": ["alexhanna.bsky.social"], "dair-community.social/@alex": ["dair-community.social/@alex"], "twitter": ["Twitter", "twitter", "twitter"], "@alexhanna": ["@alexhanna"], "music": ["Music"], "toby": ["Toby"], "menon": ["Menon"], "artwork": ["Artwork"], "naomi": ["Naomi"], "pleasure": ["Pleasure"], "-": ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"], "park": ["Park"], "production": ["Production", "Production"], "ozzy": ["Ozzy"], "llinas": ["Llinas"], "goodman": ["Goodman"], "\n   \n ": ["\n   \n "], "welcome": ["Welcome", "welcome"], "everyone!": ["everyone!"], "...": ["...", "...", "..."], "where": ["where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "Where", "where", "where", "where", "where", "where", "Where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where", "where"], "seek": ["seek"], "catharsis": ["catharsis"], "age": ["age"], "bad": ["worst", "worse", "bad", "bad", "bad"], "it": ["it", "it", "it", "it", "it", "it", "it", "It", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "It", "it", "it", "It", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "It", "it", "it", "It", "it", "it", "it", "it", "it", "it", "it", "It", "it", "it", "it", "It", "it", "It", "it", "it", "it", "it", "it", "It", "It", "It", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "It", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it", "it"], "pop": ["pop", "pop", "popping"], "with": ["with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with", "with"], "sharp": ["sharpest"], "needle": ["needles"], "along": ["Along", "along"], "way": ["way", "way", "way", "ways", "way", "way", "way", "way", "way", "way", "way", "way", "way", "way", "way", "way", "way", "ways", "way", "way", "way", "way", "way", "way", "way", "way"], "always": ["always", "always", "always", "always", "always", "always", "always"], "footnote": ["footnotes", "footnote", "footnote", "footnotes"], "each": ["each", "each", "each", "each"], "time": ["time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time", "time"], "think": ["think", "thought", "think", "think", "thought", "think", "think", "thinking", "thinking", "thinking", "think", "think", "think", "think", "think", "think", "think", "think", "think", "thinking", "think", "think", "think", "think", "think", "think", "thinking", "think", "think", "thought", "think", "think", "think", "think", "think", "thinking", "think", "think", "think", "think", "think", "think", "think", "think", "think", "think", "think", "think", "thinking", "think", "think", "think", "think", "think", "think", "think", "think", "think", "think", "thought", "think", "thinking", "think", "thinking", "think", "think", "thinking", "think", "think", "thinking", "thinks", "thinking", "thinking", "thinking", "thinking", "think", "think", "think", "think", "think", "think"], "\u2019ve": ["\u2019ve"], "reach": ["reached"], "peak": ["peak"], "--": ["--", "--", "--"], "summit": ["summit"], "bullshit": ["bullshit", "bullshit"], "mountain": ["mountain"], "discover": ["discover"], "there": ["there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "There", "There", "there", "there", "there", "There", "There", "there", "there", "there", "There", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "There", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there", "there"], "\u2019": ["\u2019s", "\u2019s", "\u2019s", "\u2019s"], "come": ["come", "came", "comes", "comes", "come", "came", "Coming", "come", "come", "coming", "come", "coming", "come", "come", "coming", "coming", "come"], "i": ["I"], "\u2019m": ["\u2019m", "\u2019m", "\u2019m", "\u2019m"], "professor": ["professor"], "linguistic": ["linguistics", "linguistics", "linguistic", "linguistics"], "at": ["at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at", "at"], "university": ["University"], "washington": ["Washington"], "director": ["Director"], "research": ["Research"], "for": ["for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "For", "for", "For", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for", "for"], "distribute": ["Distributed"], "institute": ["Institute"], "2": ["2"], "which": ["which", "which", "which", "which", "which", "Which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which", "which"], "first": ["first", "first", "first", "first", "first", "first", "first", "first", "first"], "6th": ["6th"], "actually": ["actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually", "actually"], "one": ["one", "one", "ones", "one", "one", "One", "one", "one", "one", "one", "one", "ones", "one", "one", "One", "one", "one", "one", "one", "one", "one", "one", "one", "one", "ones", "one", "one", "one", "one", "one", "one", "ones", "one", "one"], "look": ["looking", "look", "looking", "looking", "look", "look", "look", "look", "looking", "looking", "looking", "looking", "looking", "looking", "looking", "looking", "looking"], "long": ["long", "long", "long", "long", "long", "long"], "\u2026": ["\u2026", "\u2026"], "blog": ["blog"], "from": ["from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "From", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from", "from"], "vice": ["vice"], "president": ["president"], "ostensibly": ["ostensibly"], "get": ["getting", "get", "got", "get", "got", "got", "get", "get", "got", "getting", "getting", "getting", "getting", "got", "getting", "gotten", "got", "got", "get", "get", "getting", "get", "got", "gets", "got", "got", "got", "get", "getting", "getting", "get", "get", "get", "get", "get", "got", "got", "got", "getting", "got", "got", "get", "get", "get", "get", "get", "get", "get", "got", "getting", "get", "get", "get"], "\u2019d": ["\u2019d"], "all": ["all", "All", "All", "all", "all", "all", "all", "all", "All", "All", "All", "All", "All", "All", "All", "all", "all", "All", "all", "all", "All", "all", "all", "all", "All", "all", "all", "all", "all", "all", "All", "all", "All", "all", "all", "All", "all", "all", "all", "all"], "do": ["done", "did", "did", "do", "doing", "doing", "do", "do", "do", "did", "did", "did", "did", "do", "do", "do", "do", "did", "Did", "do", "did", "do", "doing", "do", "do", "do", "do", "do", "doing", "Do", "do", "do", "do", "do", "do", "do", "Did", "did", "do", "did", "does", "doing", "done", "do", "do", "do", "do", "do", "do", "do", "doing", "do", "does", "do", "does", "do", "does", "does", "does", "do", "do", "do", "does", "does", "done", "doing", "does", "do", "do", "do", "do", "do", "do", "do", "do", "do", "does", "does", "do", "does", "does", "do", "do", "does", "do", "do", "do", "do", "do", "do", "doing", "does", "do", "doing", "do", "done", "do", "doing", "does", "doing", "do", "do", "do", "do", "do"], "hour": ["hour", "hour"], "then": ["Then", "then", "then", "then", "then", "then", "then", "then", "Then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then", "then"], "another": ["another", "another", "another", "another", "another"], "(": ["(", "("], "that": ["that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "That", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "That", "that", "that", "that", "that", "that", "that", "that", "That", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "That", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "that", "That", "That", "that", "that"], ")": [")"], "third": ["third"], "3)": ["3)"], "if": ["If", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "If", "if", "if", "if", "if", "if", "if", "If", "if", "if", "if", "if", "if", "If", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "if", "If"], "have": ["have", "'ve", "'ve", "'ve", "'ve", "had", "had", "have", "have", "have", "have", "have", "having", "had", "had", "have", "has", "has", "'ve", "have", "have", "has", "has", "have", "had", "had", "have", "had", "had", "have", "has", "has", "had", "had", "'ve", "have", "has", "has", "has", "have", "have", "have", "have", "has", "have", "has", "have", "has", "have", "'ve", "have", "have", "have", "have", "has", "had", "have", "have", "'ve", "have", "'ve", "'ve", "'ve", "'ve", "'ve", "'ve", "have", "'ve", "'ve", "'ve", "has", "have", "have", "have", "have", "have", "have", "had", "'ve", "have", "have", "have", "have", "has", "has", "'ve", "have", "have", "have", "has", "has", "have", "have", "has", "have", "have", "have", "have", "'ve", "have", "'ve", "'ve", "'ve", "have", "'ve", "have", "have", "'ve", "'ve", "have", "has", "had", "has", "'ve", "'ve", "'ve", "have", "has", "have", "'ve", "have", "have", "have", "have", "have", "have", "have", "have", "have", "have", "have", "'ve", "has", "has", "have", "had"], "not": ["n't", "not", "not", "not", "not", "n't", "n't", "n't", "n't", "n't", "not", "n't", "n't", "n't", "n't", "not", "n't", "not", "n't", "not", "n't", "n't", "not", "n't", "n't", "not", "n't", "not", "n't", "not", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "n't", "not", "not", "not", "n't", "not", "not", "n't", "n't", "not", "n't", "n't", "n't", "n't", "n't", "not", "n't", "not", "n't", "n't", "not", "n't", "n't", "n't", "n't", "n't", "not", "n't", "n't", "n't", "n't", "n't", "n't", "not", "n't", "n't", "not", "n't", "not", "not", "n't", "not", "n't", "not", "n't", "not", "n't", "not", "not", "not", "n't", "n't", "not", "not", "n't", "n't", "n't", "n't", "not", "n't", "n't", "n't", "not"], "listen": ["listened", "listening", "listened"], "1": ["1"], "yet": ["yet", "yet", "yet", "yet"], "recommend": ["recommend"], "go": ["Go", "Go", "going", "going", "going", "going", "going", "going", "going", "go", "went", "gone", "go", "went", "going", "gon", "going", "going", "going", "going", "going", "going", "go", "go", "going", "go", "go", "go", "going", "go", "going"], "back": ["back", "back", "back", "back", "back", "back", "backing", "back", "back"], "right": ["right", "right", "right", "right", "Right", "right", "right", "right", "right", "right", "right", "Right", "right", "Right", "Right", "right", "Right", "right", "Right", "right", "Right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "Right", "right", "right", "right", "right", "right", "Right", "Right", "right", "right", "Right", "Right", "right", "right", "right", "right", "right", "Right", "right", "Right", "Right", "right", "right", "right", "Right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "Right", "Right", "right", "right", "right", "Right"], "so": ["so", "So", "So", "So", "so", "So", "so", "so", "so", "so", "so", "So", "So", "so", "so", "so", "So", "so", "So", "So", "so", "so", "so", "So", "so", "so", "so", "so", "So", "So", "So", "so", "So", "so", "So", "so", "so", "so", "So", "so", "So", "so", "So", "so", "so", "so", "So", "so", "So", "So", "So", "So", "So", "So", "so", "so", "so", "So", "so", "So", "So", "So", "so", "so", "so", "so", "so", "So", "so", "So", "so", "so", "so", "So", "So", "so", "so", "So", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "so", "So", "So", "so", "so", "so", "so", "So", "so", "so", "so", "So", "So", "so", "So", "so", "so", "so", "so", "So", "so", "So", "so", "so", "so", "so", "so", "So", "so", "so", "so", "so", "so", "So", "so", "So", "so", "So", "So", "so", "so", "so", "So", "So", "So", "So", "so", "so", "so", "so", "So", "so", "so", "so", "so"], "installment": ["installment"], "\u2013": ["\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013", "\u2013"], "science": ["Science", "science", "science", "science", "science", "sciences", "sciences", "sciences", "Science", "science", "science", "science"], "um": ["um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "Um", "Um", "Um", "Um", "um", "um", "um", "um", "um", "um", "Um", "um", "Um", "um", "um", "um", "um", "um", "um", "um", "Um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "Um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "Um", "Um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "um", "Um", "um", "um", "um", "Um", "Um", "um", "um", "um", "um", "Um", "um", "Um", "um", "um", "um", "um"], "let": ["let", "let", "let", "Let", "Let", "let", "let", "let", "let", "let", "let", "let", "let", "let", "let", "let", "let", "Let", "let", "let", "let", "let", "let", "Let", "Let", "let", "let", "let", "Let", "let", "let", "let", "let", "let"], "us": ["'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s"], "introduce": ["introduce"], "ourselves": ["ourselves", "ourselves"], "tell": ["Tell", "tell", "tell", "told", "telling", "tell", "tell", "told"], "folk": ["folks", "folks", "folks", "folks", "folks"], "yourself": ["yourselves", "yourself"], "yeah": ["Yeah", "yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "yeah", "Yeah", "yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "yeah", "yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "Yeah", "Yeah", "Yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah", "yeah", "Yeah", "Yeah", "yeah", "yeah", "yeah"], "myselve": ["myselves"], "contain": ["contain"], "multitude": ["multitudes"], "yes": ["Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "yes", "yes", "Yes", "yes", "Yes", "yes"], "didn't": ["didn't"], "should": ["should", "should", "should", "should", "should", "should"], "talk": ["talk", "talk", "talking", "talk", "talking", "talk", "talk", "talk", "talk", "talking", "talked", "talks", "talks", "talk", "talked", "talked", "talked", "talking", "talked", "talk", "talking", "talk", "talk", "talk", "talk", "talking", "talked", "talking", "talking"], "why": ["why", "why", "why", "why", "why", "why", "why", "why", "why", "why", "why"], "because": ["because", "because", "because", "Because", "because", "because", "Because", "Because", "because", "because", "Because", "because", "because", "because", "because", "Because", "because", "because", "because", "because", "because", "because", "because", "because", "because", "because", "because", "because", "Because", "Because", "because", "because", "because"], "lose": ["lost"], "recording": ["recording", "Recordings", "recording"], "last": ["last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last", "last"], "both": ["both", "both", "both", "both", "both", "both"], "place": ["places", "place", "places", "place", "place", "places"], "totally": ["totally", "Totally", "totally", "Totally", "totally"], "excellent": ["Excellent"], "linguist": ["linguist", "linguists", "linguists"], "involve": ["involved", "involves"], "conversation": ["conversation", "conversation", "conversations", "conversations", "conversations", "conversations"], "interested": ["interested"], "build": ["building", "building", "build", "build", "build", "build"], "my": ["my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "my", "My", "my", "my", "my", "my", "my", "my"], "thing": ["thing", "thing", "things", "thing", "thing", "things", "things", "thing", "thing", "thing", "things", "thing", "things", "things", "things", "things", "things", "things", "things", "things", "things", "thing", "things", "thing", "thing", "thing", "thing", "things", "things", "thing", "thing", "thing", "things", "things", "thing", "things", "things", "things"], "but": ["but", "But", "But", "but", "but", "but", "But", "but", "but", "But", "But", "but", "But", "but", "but", "But", "But", "But", "But", "But", "But", "but", "but", "but", "But", "but", "but", "but", "but", "but", "But", "But", "but", "but", "but", "but", "but", "but", "But", "but", "But", "but", "but", "But", "but", "but", "but", "but", "But", "But", "But", "But", "but", "but", "but", "but", "but", "but", "But", "But", "but", "but", "but", "But", "but", "but", "but", "but", "But", "but", "but", "but"], "lot": ["lot", "lot", "lots", "lot", "lot", "lot", "lots", "lot", "lot", "lot", "lot", "lot", "lot", "lot", "lot", "lot", "lot"], "claim": ["claims", "claims", "claim", "claiming", "claim"], "sort": ["sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort", "sort"], "impinge": ["impinge"], "area": ["area"], "computational": ["computational", "computational"], "secondly": ["secondly"], "seem": ["seem", "seems", "seem", "seemed", "seemed", "seems", "seems", "seems"], "lead": ["leading", "leads", "lead", "lead", "leading"], "harm": ["harm", "harm", "harm", "harm", "harmed"], "potential": ["potential"], "world": ["world", "world", "world", "world", "world", "world", "world", "world", "world"], "into": ["into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into", "into"], "what": ["What", "what", "what", "what", "what", "What", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "What", "what", "what", "what", "what", "what", "what", "what", "What", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "what", "What", "what", "what", "what", "what", "what", "what", "what"], "name": ["name", "named", "name", "name", "name"], "distributed": ["Distributed"], "familiar": ["familiar"], "dair": ["DAIR"], "an": ["an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an", "an"], "attempt": ["attempts", "attempts"], "center": ["center", "center"], "people": ["people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people", "people"], "typically": ["typically", "typically", "typically", "typically", "typically"], "leave": ["left", "leaves", "left", "left", "left", "left", "left"], "their": ["their", "their", "their", "their", "their", "their", "their", "their", "their", "their", "their", "their", "Their", "their", "their", "their", "their", "their"], "perspective": ["perspectives", "perspective"], "community": ["communities", "community"], "rather": ["rather", "rather", "rather", "Rather", "rather", "Rather", "Rather", "rather", "rather", "rather"], "than": ["than", "than", "than", "than", "than", "than", "than", "than", "than", "than", "than"], "or": ["or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or", "or"], "even": ["even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "even", "Even"], "against": ["against"], "happen": ["happens", "happen", "happening", "happened", "happens", "happening", "happen", "happening"], "much": ["much", "much", "much", "Much", "much", "much", "much", "much", "much", "much", "much", "much"], "more": ["more", "more", "more", "more", "more", "more", "more", "More", "more", "more", "more", "more", "more", "more", "More", "more", "more", "more", "more", "more", "more", "more", "more", "more", "more", "more", "more", "more", "more"], "background": ["background"], "training": ["training", "training", "training", "training", "training", "training", "training", "training"], "sociologist": ["sociologist", "sociologist", "sociologist", "sociologist"], "enter": ["entered"], "understanding": ["understanding", "understanding", "understanding", "understanding"], "kind": ["kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kinds", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind", "kind"], "as": ["as", "as", "as", "as", "as", "as", "as", "as", "As", "as", "as", "As", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "As", "as", "as", "as", "as", "as", "as", "as", "As", "As", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as", "as"], "bit": ["bit", "bit", "bit", "bit", "bit", "bit", "bit", "bit", "bit", "bit", "bit"], "social": ["Social", "social"], "need": ["needs", "need", "needs", "need", "need", "need", "need", "need", "needed", "need", "needs", "need"], "interrogate": ["interrogated"], "frame": ["frame", "frame"], "ben": ["Ben"], "wave": ["waving"], "high": ["high", "high"], "hey": ["Hey", "hey"], "try": ["trying", "trying", "try", "try", "try", "trying", "trying", "trying", "try", "tried", "trying", "trying", "trying", "tried", "try"], "chat": ["chat", "chat", "chats", "chat", "chat", "chat", "chat", "chat", "chat", "chat", "chat", "chat", "chat"], "over": ["over", "over", "over", "over", "over", "over", "over", "over", "over"], "side": ["side", "side", "side"], "screen": ["screen", "screen", "screen"], "like": ["like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "Like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "Like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "liked", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like", "like"], "project": ["project", "project"], "say": ["saying", "saying", "says", "said", "said", "saying", "say", "say", "say", "say", "saying", "saying", "saying", "say", "saying", "saying", "saying", "saying", "say", "saying", "say", "say", "says", "say", "saying", "say", "says", "say", "saying", "say", "said", "says", "saying", "saying", "saying", "saying", "said", "say", "saying", "says"], "although": ["although", "Although"], "part": ["part", "part", "part"], "cut": ["cut"], "around": ["around", "around"], "idea": ["idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea", "idea"], "month": ["months"], "now": ["now", "now", "now", "now", "now", "now", "now", "Now", "now", "now", "now", "now", "now"], "group": ["group", "group", "group", "group"], "elsewhere": ["elsewhere"], "frequently": ["frequently"], "collectively": ["collectively"], "roll": ["roll"], "eye": ["eyes"], "snide": ["snide"], "comment": ["comments", "comments", "comment", "comments", "comment", "comment"], "maybe": ["maybe", "maybe", "Maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe", "maybe"], "know": ["know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "known", "know", "know", "know", "know", "know", "know", "known", "know", "know", "know", "know", "know", "know", "known", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "known", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "knew", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know", "know"], "exactly": ["exactly", "Exactly", "exactly", "exactly", "exactly"], "mean": ["mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "means", "mean", "mean", "mean", "meant", "mean", "mean", "mean", "means", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean", "mean"], "love": ["loving", "love", "love", "love", "love", "love", "love"], "format": ["format"], "take": ["taking", "take", "take", "take", "taking", "take", "take", "taking", "take", "taken", "taking", "take", "taking", "take", "take", "take"], "turn": ["turning", "turn", "turn", "turned"], "they": ["them", "they", "they", "they", "them", "they", "they", "they", "they", "them", "They", "they", "they", "them", "they", "they", "they", "They", "they", "they", "They", "They", "they", "they", "they", "they", "they", "them", "they", "they", "them", "them", "them", "them", "them", "they", "They", "they", "them", "They", "They", "they", "They", "them", "they", "They", "them", "them", "They", "they", "they", "they", "them", "them", "them", "them", "them"], "podcast": ["podcast", "podcast", "podcast", "podcasting", "podcast", "podcasts"], "call": ["called", "called", "called", "call", "calling", "calling", "called", "calling", "called", "called", "called", "called", "called", "called", "call"], "oh": ["oh", "Oh", "Oh", "oh", "oh", "Oh", "Oh", "oh", "oh", "Oh"], "gosh": ["gosh", "gosh", "gosh", "gosh"], "forget": ["forgotten", "forget", "forgetting", "forgetting", "forget", "forgot", "forgot"], "saeed": ["Saeed"], "jones": ["Jones"], "zack": ["Zack"], "snyder": ["Snyder"], "sam": ["Sam"], "sanders": ["Sanders"], "bring": ["bring", "bring", "brought", "brought"], "up": ["up", "up", "up", "up", "up", "up", "up", "up", "ups", "up", "up", "up", "up", "up", "up", "up", "up", "up", "up", "up", "up", "up"], "uh": ["uh", "uh", "uh", "uh", "uh", "uh", "uh", "Uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "Uh", "uh", "Uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "uh", "Uh", "uh", "uh", "uh", "uh", "uh", "uh", "Uh", "uh", "uh", "uh", "Uh", "uh", "uh", "Uh"], "phone": ["phone"], "just": ["just", "just", "just", "just", "just", "just", "just", "just", "just", "just", "Just", "just", "just", "just", "just", "just", "just", "just", "just", "just", "just", "just"], "remember": ["remember"], "give": ["give", "give", "given", "given", "giving", "giving"], "proper": ["proper"], "plug": ["plug"], "bottom": ["bottom"], "vibe": ["Vibe"], "great": ["great", "great", "greater", "great", "great", "great", "great"], "too": ["too", "too", "too", "too", "too", "too", "too", "too", "too", "too", "too", "too"], "hopefully": ["hopefully", "Hopefully"], "will": ["'ll", "'ll", "'ll", "'ll", "'ll", "'ll", "'ll", "'ll", "will", "will", "will", "'ll", "'ll", "'ll", "'ll", "'ll", "will", "'ll"], "enjoyable": ["enjoyable"], "similar": ["similar"], "while": ["while", "While", "while", "While", "while", "while", "while", "while"], "before": ["Before", "before"], "share": ["share", "share", "sharing"], "couple": ["couple"], "housekeeping": ["housekeeping"], "want": ["want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "want", "wanted", "want", "want"], "super": ["super", "super", "super"], "frustrated": ["frustrated"], "notion": ["notion", "notion", "notion", "notion"], "phrase": ["phrase", "phrase", "phrases"], "refer": ["refer", "referred"], "instead": ["instead", "instead", "instead", "instead"], "mathy": ["mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy", "mathy"], "math": ["Math", "maths", "maths", "maths", "maths", "maths", "math", "math", "math", "math", "math", "math", "math", "maths", "maths", "math", "maths"], "probably": ["probably", "probably", "probably", "probably"], "when": ["when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "when", "When", "when", "when"], "text": ["text", "text"], "live": ["live", "live", "living", "LIVE"], "captioner": ["captioner", "captioner"], "wonderful": ["wonderful", "wonderful"], "thank": ["Thank", "thank", "thanks", "thank", "thanks", "thanks", "Thanks", "thanks"], "sponsor": ["sponsoring"], "captioning": ["captioning"], "those": ["those", "those", "those", "those", "those", "those", "those", "those", "those"], "capture": ["captured", "capture", "captured"], "fix": ["fixing", "fixed", "fixed", "fixed", "fixed"], "auto": ["auto"], "transcription": ["transcription", "transcription", "transcription"], "subtitle": ["subtitles"], "youtube": ["YouTube"], "hilarious": ["hilarious"], "most": ["Most", "most", "most", "Most", "most"], "matthew": ["Matthew"], "person": ["person"], "once": ["once", "once", "once"], "fast": ["fast", "fast", "faster"], "transcribe": ["transcribed"], "vacuum": ["vacuum", "vacuums", "vacuuming", "vacuuming", "vacuum", "vacuum"], "app": ["apps", "apps", "apps"], "perfect": ["perfect", "perfect"], "empty": ["empty"], "datum": ["data", "data", "data", "data", "data", "data", "Data", "data", "data", "data", "data", "data", "data"], "double": ["double"], "entendre": ["entendre"], "already": ["already", "already", "already", "already", "already", "already", "already", "already", "already"], "sure": ["sure", "sure", "sure", "sure"], "dyson": ["Dyson"], "somebody": ["somebody", "somebody", "somebody"], "really": ["really", "really", "really", "really", "really", "really", "really", "really", "really", "really", "really", "really"], "well": ["Well", "better", "well", "better", "better", "Well", "well", "Well", "well", "well", "well", "better", "well", "Well", "well", "better", "well"], "roomba": ["Roomba"], "amazon": ["Amazon"], "buy": ["bought", "bought"], "map": ["mapping", "map"], "individual": ["individual"], "household": ["households"], "internal": ["internal", "internal"], "layout": ["layouts", "layout"], "'s": ["'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s", "'s"], "house": ["houses", "house"], "something": ["something", "something", "something", "something", "something", "something", "something", "something", "something", "something", "something", "something"], "exist": ["exists", "exist", "existing", "exists"], "terrifying": ["Terrifying"], "many": ["many", "many", "many", "many", "Many", "many", "many", "many"], "anyways": ["anyways"], "would": ["would", "Would", "'d", "would", "would", "would", "'d", "would", "would", "would", "would", "would", "would", "would", "would", "would", "would", "would", "'d", "would", "would", "would", "would", "would", "would", "would", "'d", "would", "'d"], "dylan": ["Dylan"], "keep": ["keep", "keep", "keep", "Keep", "keep", "Keeping", "keep", "keep", "keep"], "dog": ["dog"], "fur": ["fur"], "floor": ["floor"], "no": ["no", "No", "No", "no", "no", "no", "no", "no", "no", "no", "no", "no", "no", "no", "No", "no", "no", "no", "No", "no", "no", "No"], "some": ["some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "Some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some", "some"], "without": ["without"], "exact": ["exact", "exact"], "your": ["your", "your", "your", "your", "your"], "concept": ["concept", "concepts", "concept", "concept", "concept", "concepts", "concept", "concepts", "concept", "concepts", "concepts", "concept", "concepts", "concepts"], "start": ["started", "started", "start"], "make": ["make", "make", "making", "making", "made", "make", "make", "made", "made", "make", "makes", "make", "make", "making", "make", "make", "make", "made", "making", "made"], "big": ["bigger", "big", "big", "big", "big", "big"], "little": ["little", "little", "little", "little", "little", "little", "little", "little", "little", "little", "little", "little", "little"], "mind": ["mind", "mind"], "futze": ["futzing"], "caption": ["caption", "caption"], "size": ["size"], "article": ["article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article", "article"], "entitle": ["entitled"], "march-": ["march-"], "apology": ["apologies"], "spanish": ["Spanish"], "speaker": ["speakers"], "mangle": ["mangling"], "his": ["his", "his", "his", "his", "his", "his", "his", "his", "his", "his", "his", "his", "his"], "surname": ["surname"], "he": ["he", "him", "he", "he", "he", "he", "he", "he", "he", "he", "he", "He", "he", "he", "he", "he", "he", "he", "he", "him", "him", "he", "he", "he", "he", "him", "he", "he", "he", "he", "he", "he", "he", "He", "he", "he", "he", "he", "he", "he", "he", "he"], "write": ["wrote", "wrote", "wrote", "write", "written", "writing", "write", "writing"], "medium": ["Medium", "Medium"], "count": ["count", "counts", "counts"], "64": ["64"], "minute": ["minutes", "minute", "minutes", "minutes"], "central": ["central"], "implicitly": ["implicitly", "implicitly", "implicitly"], "language": ["language", "language", "language", "language", "language", "language", "Language", "language", "language", "language", "language", "language", "language", "language", "language", "language", "language", "language", "language", "language"], "critic": ["critics"], "quite": ["quite", "quite"], "forgot": ["forgot", "forgot"], "ethicist": ["ethicists", "ethicist", "ethicists"], "narrow": ["narrow", "narrow", "narrow"], "focus": ["focus", "focus", "focus"], "problem": ["problem", "problems", "problem", "problem", "problems", "problem", "problem", "problem", "problems", "problems", "problem", "problems", "problems"], "timnit": ["Timnit"], "especially": ["especially", "especially"], "stochastic": ["Stochastic"], "parrots": ["Parrots"], "paper": ["paper", "paper", "paper"], "year": ["year", "years", "years", "years"], "other": ["other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "others", "other"], "hand": ["hand", "hand", "hand", "hands"], "dichotomy": ["dichotomy"], "set": ["set", "set", "set", "set", "sets", "set", "set", "set", "set", "set", "set"], "superintelligence": ["Superintelligence"], "nick": ["Nick"], "bostrom": ["Bostrom"], "end": ["ended", "ended", "end", "end", "end", "end", "end"], "history": ["history", "history", "histories", "history", "history", "history", "history", "history"], "understand": ["understanding", "understand", "understand", "understanding"], "good": ["good", "best", "good", "good", "good", "good", "good", "best", "best", "best", "best", "best", "good", "best", "best", "good"], "summary": ["summary"], "term": ["terms", "term", "term", "term", "terms", "terms", "terms", "terms", "term", "terms", "term", "terms", "terms", "terms", "terms"], "structure": ["structure", "structures", "structure", "structures"], "piece": ["piece", "piece", "piece"], "basically": ["basically", "basically", "basically", "basically", "basically", "basically"], "introduction": ["introduction", "introduction"], "dive": ["diving", "dive"], "major": ["major"], "section": ["section", "section", "section", "section", "section", "section"], "misunderstanding": ["Misunderstanding"], "guess": ["guess", "guess", "guess", "guess", "guess", "guess", "guess", "Guess"], "necessarily": ["necessarily", "necessarily", "necessarily", "necessarily", "necessarily", "necessarily"], "whole": ["whole", "whole", "whole", "whole", "whole"], "few": ["few", "few", "few"], "week": ["weeks", "week", "week"], "only": ["only", "only", "only", "only", "only", "only", "only", "only"], "skim": ["skimmed", "skimmed"], "anymore": ["anymore"], "homework": ["homework"], "still": ["still", "still", "still", "still", "still"], "pretty": ["pretty", "pretty"], "fresh": ["fresh"], "initial": ["initial"], "reaction": ["reactions"], "these": ["these", "these", "these", "these", "these", "these", "these", "these", "these", "These", "These", "these", "these", "these", "these", "these", "these", "These", "these", "These", "these", "these", "these", "these", "these", "these", "these", "these", "these"], "top": ["top", "top"], "down": ["down", "downs", "down", "down", "down", "down"], "sense": ["sense", "sense", "sense", "sense", "sense", "sense", "sense"], "cool": ["cool", "cool", "cool"], "context": ["context"], "stylize": ["stylized"], "okay": ["Okay", "Okay", "okay", "okay", "Okay", "Okay", "okay", "Okay", "Okay", "Okay", "Okay", "Okay", "Okay", "okay", "Okay", "okay", "Okay", "Okay", "okay", "Okay", "Okay", "okay", "Okay", "Okay", "Okay", "Okay", "okay", "Okay", "okay", "Okay", "Okay", "Okay", "Okay", "Okay", "okay", "Okay", "okay", "Okay", "Okay", "okay"], "coin": ["coined"], "dartmouth": ["Dartmouth"], "summer": ["Summer"], "hold": ["held", "held", "held", "held", "holding"], "every": ["every", "every", "Every", "every", "every"], "aspect": ["aspect", "aspect", "aspect"], "feature": ["feature", "feature", "feature"], "principle": ["principle", "principle", "principles", "principles", "principles", "principles", "principles"], "precisely": ["precisely", "precisely", "precisely"], "describe": ["described", "described", "described", "describes", "describing"], "simulate": ["simulate", "simulate"], "--sought": ["--sought"], "possible": ["possible", "possible", "possible", "possible"], "use": ["use", "using", "use", "use", "use", "use", "use", "using", "used", "used", "used", "using", "using", "used", "used", "using", "using", "using"], "form": ["form", "form", "forming", "form", "form", "form"], "abstraction": ["abstractions", "abstractions", "abstraction", "abstraction"], "etc": ["etc"], "solve": ["solve"], "meeting": ["meeting"], "assume": ["assuming", "assumed", "assuming"], "marvin": ["Marvin"], "minsky": ["Minsky"], "seymour": ["Seymour"], "papert": ["Papert"], "type": ["types", "type", "type"], "figure": ["figures", "figure", "figure"], "correct": ["correct", "correct", "correct"], "assumption": ["assumption", "assumption"], "reason": ["reason", "reasons", "reasons", "reason", "reason", "reason"], "ask": ["asking"], "question": ["question"], "state": ["state", "states", "states", "states", "states", "states"], "art": ["art", "art", "art", "art"], "knowledge": ["knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge", "knowledge"], "1956": ["1956", "1956", "1956"], "learning": ["learning", "learning", "learning", "learning", "learning", "learning", "learning", "learning"], "doubt": ["doubt", "doubted", "doubt"], "least": ["least", "least", "least", "least"], "within": ["within", "within"], "itself": ["itself"], "discuss": ["discussed", "discuss"], "man": ["Man"], "mit": ["MIT"], "herbert": ["Herbert"], "simon": ["Simon"], "discussion": ["discussions", "discussion", "discussion", "discussion"], "polymath": ["polymath"], "dabble": ["dabbled"], "everything": ["everything", "everything"], "economist": ["economist"], "computer": ["computers", "computer", "computers", "computers", "computer", "computer", "computer", "computer"], "among": ["among"], "could": ["could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could", "could"], "position": ["positioned", "positions", "positioned", "position"], "fail": ["failed"], "define": ["define", "defined", "defined", "define"], "step": ["step", "step"], "paraphrase": ["paraphrase"], "kate": ["Kate"], "crawford": ["Crawford"], "machine--": ["machine--"], "she": ["she"], "cite": ["cited"], "neither": ["neither"], "nor": ["nor"], "intelligent": ["intelligent", "intelligent"], "reiteration": ["reiteration"], "neural": ["neural", "neural", "neural", "neural", "neural"], "network": ["networks", "network"], "play": ["played", "play", "plays", "play", "play"], "role": ["role"], "thinking": ["thinking", "thinking"], "invent": ["invented"], "partly": ["partly"], "distance": ["distance"], "themselves": ["themselves", "themselves", "themselves"], "cybernetic": ["cybernetics", "cybernetics", "cybernetic", "cybernetic"], "approach": ["approach", "approach", "approach", "approaches", "approach", "approaches", "approaches", "approaches", "approach", "approaches", "approach"], "create": ["creating"], "continuous": ["continuous", "continuous", "continuous"], "value": ["values", "values", "values", "value", "value", "values"], "predictive": ["predictive", "predictive", "predictive", "predictive", "predictive"], "model": ["models", "models", "models", "models", "models", "models", "models", "models", "models", "models"], "environment": ["environment", "environment"], "interesting": ["interesting", "interesting", "Interesting", "interesting"], "separation": ["separation"], "picture": ["picture", "picture", "picture", "picture"], "white": ["white"], "dude": ["dude"], "norbert": ["Norbert"], "wiener": ["Wiener"], "palomilla": ["Palomilla"], "robot": ["Robot", "robots", "robot", "robot", "robot", "robot", "robot", "robot", "robot", "robots", "robots", "robot", "robots", "robot", "robots", "robots", "robot", "robots", "robots"], "cigar": ["cigar", "cigar"], "board": ["board", "board", "board"], "behind": ["behind", "behind"], "calculus": ["calculus", "calculus", "calculus"], "show": ["show", "show", "show", "showing", "show", "show"], "real": ["real", "real"], "whiteboard": ["whiteboard"], "sciencing": ["sciencing"], "bro": ["bro"], "blackboard": ["blackboard"], "day": ["day", "day", "day", "day", "day"], "despite": ["Despite", "despite"], "its": ["its", "its", "its", "its", "its", "its", "its", "its"], "stay": ["stay", "Stay"], "sink": ["sunk"], "obscurity": ["obscurity"], "ironically": ["Ironically"], "today": ["today", "today", "today"], "powerful": ["powerful", "powerful", "powerful", "powerful"], "very": ["very", "very", "very", "very", "very", "very", "very", "very"], "tradition": ["tradition"], "virtual": ["virtual"], "quote": ["quote", "quote", "quote", "quotes", "quoting"], "neuron": ["neurons"], "weight": ["weights"], "activation": ["activations"], "function": ["functions"], "base": ["based", "based", "based", "based", "based", "base", "based", "based", "based", "based", "based", "based", "based", "based", "based", "based"], "responsible": ["responsible"], "word": ["word", "words", "words", "Words", "words"], "predict": ["predict", "predict", "predicting", "predict", "predict", "predicting"], "prediction": ["prediction", "prediction", "predictions", "prediction", "prediction"], "such": ["such", "Such", "such", "Such", "such", "such", "such", "such", "such", "such"], "disaster": ["disaster", "disaster"], "field": ["field", "field"], "wonder": ["wondering", "wondering", "wondering"], "curious": ["curious", "curious", "curious", "curious", "curious", "curious", "curious", "curious", "curious"], "articulation": ["articulation"], "different": ["different", "different", "different", "different", "different", "different", "different", "different", "different", "different"], "explanatory": ["explanatory", "explanatory"], "two": ["two", "two", "two", "two", "two", "Two", "two", "two"], "culture": ["cultures", "culture"], "statistic": ["statistics"], "author": ["author", "author"], "replicate": ["replicated"], "distinguish": ["distinguishing"], "instance": ["instance", "instance"], "tend": ["tends"], "train": ["train", "train"], "report": ["report"], "coefficient": ["coefficients"], "explain": ["explain"], "correlation": ["correlation"], "data": ["Data"], "whereas": ["Whereas", "whereas"], "whether": ["whether", "whether", "whether", "whether"], "accuracy": ["accuracy"], "disastrous": ["disastrous"], "literally": ["literally", "literally", "literally"], "repeatedly": ["repeatedly"], "output": ["output", "output", "outputs", "output"], "test": ["test", "test"], "label": ["labels", "labeling"], "advance": ["advance", "advances"], "feed": ["feeds"], "system": ["system", "system", "system", "system", "systems", "systems", "system", "system", "system", "systems", "systems", "systems"], "example": ["example", "examples", "examples", "examples", "example"], "crime": ["crime"], "bleed": ["bleeds", "bleeds"], "ordinary": ["ordinary", "ordinary"], "oppose": ["opposed", "opposing"], "technical": ["technical", "technical", "technical", "technical"], "sound": ["sounds", "sounding", "sound", "sound"], "definition": ["definition", "definition", "definition", "definitions"], "reasonable": ["reasonable"], "pre-": ["pre-"], "diction": ["diction"], "ahead": ["ahead", "ahead"], "point": ["point", "point", "points", "point", "point", "point", "pointing", "points"], "subtle": ["subtle", "subtle"], "distinction": ["distinction"], "important": ["important"], "note": ["note"], "recently": ["recently"], "2006": ["2006", "2006"], "survive": ["surviving"], "member": ["members"], "50th": ["50th"], "reunion": ["reunion"], "founder": ["founders"], "yield": ["yield"], "meaningful": ["meaningful"], "progress": ["progress"], "overall": ["Overall"], "mood": ["mood"], "pessimistic": ["pessimistic"], ";": [";", ";"], "nothing": ["nothing", "nothing", "nothing", "nothing", "nothing", "nothing"], "mainstream": ["Mainstream"], "between": ["between", "between", "between"], "often": ["often", "often"], "logic": ["logic", "logic", "logic", "logic", "logic"], "rule": ["rules", "rule", "rules", "rule", "rules", "rules", "rules", "rules", "rules", "rules", "rules", "rule", "rules", "rule", "rule", "rules", "rules"], "explicit": ["explicit"], "programming": ["programming", "programming", "programming", "programming", "programming", "programming", "programming"], "rest": ["rest"], "computing": ["computing", "computing", "computing"], "sometimes": ["sometimes"], "gof-": ["GOF-"], "gof": ["GOF"], "gofai": ["GOFAI", "GOFAI", "GOFAI", "GOFAI"], "old": ["old", "old"], "fashioned": ["fashioned", "fashioned"], "classic": ["classic", "classic"], "include": ["including", "including"], "standard": ["standard", "standard", "standard"], "pattern": ["patterns", "pattern", "patterns", "patterns"], "develop": ["developed", "developed"], "quest": ["quest"], "highly": ["highly"], "productive": ["productive"], "program": ["program", "programmed", "program", "programmed", "program", "program", "program"], "ambition": ["ambitions", "ambitions"], "miss": ["missed"], "mark": ["mark"], "combination": ["Combinations", "Combinations", "combination"], "able": ["able", "able", "able"], "beat": ["beat", "beat"], "expert": ["expert", "expert", "expert"], "human": ["humans", "humans", "humans", "human", "human", "human", "humans", "human", "human", "human", "human", "humans", "humans", "human", "human", "human", "Human", "human", "human", "human", "Human", "human", "human"], "game": ["games", "game", "game", "game", "games", "game", "game", "game"], "characterize": ["characterized", "characterized", "characterized"], "discrete": ["discrete", "discrete", "discrete"], "checker": ["checkers", "checkers", "checkers", "checkers"], "chess": ["chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess", "chess"], "citation": ["citation", "citation", "citation", "citation", "citation", "citation", "citation", "citation", "citation"], "17": ["17"], "resistant": ["resistant"], "brute": ["brute", "brute", "brute", "brute"], "force": ["force", "force", "forced", "force"], "allow": ["allowed", "allowed", "allow", "allows", "allows", "allowed", "allow", "allow", "allow"], "large": ["large"], "number": ["number", "number", "numbers", "numbers"], "move": ["moves", "move", "moves"], "during": ["during", "during"], "correspondingly": ["correspondingly"], "enormous": ["enormous"], "range": ["range"], "hence": ["Hence"], "require": ["requires", "require", "require", "requiring"], "generalization": ["generalization", "generalizations", "generalizations", "generalization"], "evaluation": ["evaluation"], "decide": ["decide", "deciding", "decide", "decide"], "next": ["next", "next", "next", "next", "next", "next", "next"], "begin": ["began"], "outperform": ["outperforming"], "master": ["masters", "masters", "masters", "masters"], "deep": ["Deep", "deep", "deep", "deep"], "soon": ["soon"], "search": ["search", "search"], "space": ["space"], "encode": ["encoding", "encoded", "encode", "encode", "encode", "encode"], "nathan": ["Nathan"], "ensmenger": ["Ensmenger"], "historian": ["historian", "historian"], "drop": ["drop", "drop", "drop", "dropping", "drop", "drop", "drop", "dropping", "drops", "dropping"], "become": ["became", "became", "became", "became", "became", "became"], "stand": ["stand", "stand", "stand", "stand"], "became": ["became"], "masculinize": ["masculinized"], "janet": ["Janet"], "abbate": ["Abbate"], "drosophila": ["drosophila", "drosophila", "drosophila"], "reference": ["reference", "reference", "reference", "referenced", "reference"], "fruit": ["fruit"], "fly": ["flies"], "melanogaster": ["melanogaster"], "laboratory": ["laboratory"], "setting": ["settings"], "genomic": ["genomics", "genomics"], "easy": ["easy", "easy"], "dna": ["DNA"], "worm": ["worm"], "algorithm": ["algorithm"], "smart": ["smarts"], "where-": ["where-"], "skimming": ["skimming"], "forcefully": ["forcefully"], "shape": ["shaped", "shaped", "shaped"], "cold": ["cold", "cold", "cold"], "war": ["war", "war", "war"], "politic": ["politics"], "competition": ["competition", "competition", "competition", "competition"], "fascinating": ["fascinating"], "standardized": ["standardized"], "rank": ["ranking", "rank"], "elo": ["ELO"], "player": ["player", "players", "players"], "across": ["across"], "career": ["career", "career"], "standardize": ["standardized"], "masculinist": ["masculinist", "masculinist"], "tie": ["tie", "tied"], "acuman": ["acumen"], "thinker": ["thinker", "thinker"], "rare": ["rare"], "programmer": ["programmers"], "nationalistic": ["nationalistic"], "pride": ["pride"], "grand": ["grand", "grand", "grand"], "country": ["countries"], "russians": ["Russians"], "americans": ["Americans"], "netflix": ["Netflix"], "queen": ["Queen"], "gambit": ["Gambit"], "young": ["young", "young", "young"], "character": ["character", "character"], "terrible": ["terrible"], "woman": ["woman", "woman"], "russia": ["Russia"], "scene": ["scene"], "view": ["view", "view", "view", "view", "view"], "challenge": ["challenging"], "upset": ["upsetting"], "argument": ["argument"], "purely": ["purely"], "chinese": ["Chinese"], "amazing": ["amazing", "amazing", "amazing"], "new": ["New", "new"], "benchmark": ["benchmark"], "course": ["course", "course", "course", "course", "course", "course"], "ignore": ["ignore"], "nationalism": ["nationalism"], "embed": ["embedded", "embedded"], "comp": ["comp"], "integrate": ["integrated"], "americanism": ["Americanism"], "western": ["Western"], "centrism": ["centrism"], "alphago": ["AlphaGo"], "deepmind": ["DeepMind"], "london": ["London"], "mmm": ["Mmm"], "eventually": ["eventually"], "far": ["far"], "less": ["less", "less"], "headway": ["headway"], "visual": ["visual"], "auditory": ["auditory"], "input": ["inputs", "input"], "category": ["categories", "category", "Categories", "categories", "category"], "bicycle": ["bicycles", "bicycle", "bicycle", "bicycle", "bicycle", "bicycle", "bicycles", "bicycle", "bicycles", "bicycle"], "recognize": ["recognize", "recognizing", "recognizing", "recognize"], "consider": ["Consider"], "likely": ["likely"], "straightforward": ["straightforward"], "initially": ["initially"], "practitioner": ["practitioners", "practitioners", "practitioners"], "reserve": ["reserve"], "net": ["nets", "nets"], "plural": ["plural"], "got": ["Got"], "believe": ["believed", "believed", "believed", "believe"], "database": ["databases"], "logical": ["logical", "logical", "logical"], "proposition": ["propositions", "propositions"], "produce": ["produce"], "horse": ["horse"], "race": ["race"], "unquote": ["unquote"], "fact": ["facts"], "wheel": ["wheels", "wheels", "wheels", "wheels", "wheels"], "round": ["round"], "surprisingly": ["surprisingly"], "hard": ["hard", "hard", "hard", "hard", "hard"], "---": ["---", "---", "---"], "impossible": ["impossible"], "bike": ["bike", "bike", "bike", "bike", "bike", "bike", "bikes", "bikes", "bike", "bike", "bikes", "bike", "bikes", "bikes", "bikes", "bikes"], "trouble": ["trouble", "trouble", "trouble"], "statement": ["statement", "statements"], "justice": ["Justice", "justice", "justice"], "potter": ["Potter"], "stewart": ["Stewart"], "obscenity": ["obscenity"], "pornography": ["pornography"], "pornographer": ["Pornographer"], "band": ["band"], "fan": ["fan"], "girl": ["girl"], "plenty": ["plenty"], "story": ["stories", "stories", "stories", "stories", "stories"], "resist": ["resist"], "reduction": ["reduction"], "mechanical": ["mechanical", "mechanical"], "fully": ["fully"], "intuition": ["intuition", "intuitions"], "engine": ["engine"], "speed": ["speed"], "complication": ["complications"], "endless": ["endless"], "silly": ["silly", "silly"], "chuckle": ["chuckle"], "fun": ["fun", "fun"], "shoe": ["shoe", "shoe"], "successfully": ["successfully"], "rely": ["rely", "relies", "relies"], "beyond": ["Beyond", "beyond"], "practical": ["practical"], "vast": ["vast", "vast"], "improvement": ["improvements"], "speech": ["speech", "speech", "speech", "speech", "speech"], "recognition": ["recognition", "recognition", "recognition", "recognition", "recognition", "recognition", "recognition", "recognition", "recognition"], "--image": ["--image"], "tagging": ["tagging"], "else": ["else", "else"], "offer": ["offered", "offers"], "lesson": ["lessons", "lessons", "lesson", "lessons"], "representation": ["representation", "representation", "representation"], "reasoning": ["reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasoning", "reasonings"], "nature": ["nature", "nature", "nature", "nature", "nature"], "truth": ["truth", "truth", "truth", "truth", "truth", "truth", "truth", "truth", "truth", "truth", "truth"], "--we": ["--we", "--we"], "culturally": ["culturally", "culturally", "culturally", "culturally", "culturally"], "easily": ["easily"], "fuzzy": ["fuzzy", "fuzzy"], "prototype": ["prototypes"], "stuff": ["stuff", "stuff", "stuff"], "psychologist": ["psychologists"], "neat": ["neat"], "boundary": ["boundaries"], "weere": ["weere"], "wrong": ["wrong", "wrong", "wrong", "wrong", "wrong", "wrong", "wrong", "wrong", "wrong"], "centric": ["centric"], "completely": ["Completely", "completely"], "depend": ["depends", "depends", "depends", "depends", "depending"], "whose": ["whose"], "variety": ["variety", "varieties"], "noise": ["noise"], "condition": ["conditions"], "level": ["level"], "useful": ["useful", "useful"], "continue": ["continue"], "please": ["please"], "image": ["image", "image", "image", "image", "image"], "alternate": ["alternate"], "automatic": ["automatic", "automatic"], "cognition": ["cognition"], "labeling": ["labeling", "labeling", "labeling"], "automate": ["automated", "automate", "automate"], "classification": ["classification", "classification", "classification"], "definitely": ["definitely"], "imply": ["implying", "imply"], "self": ["self", "self"], "reflective": ["reflective"], "task": ["task", "task", "task", "task", "task", "tasks", "tasks"], "cognitive": ["cognitive"], "kicker": ["kicker", "kicker"], "scroll": ["scroll", "scroll", "scroll"], "--powerful": ["--powerful"], "might": ["might", "might", "might", "might", "might", "might", "might", "might", "might"], "prefigure": ["prefiguring"], "doozy": ["doozy"], "aloud": ["aloud"], "cod": ["coded"], "run": ["ran", "run"], "grammar": ["grammar"], "amenable": ["amenable"], "slow": ["slow"], "painstaking": ["painstaking"], "morphology": ["morphology"], "doable": ["doable"], "constrained": ["constrained"], "wide": ["wide", "wider"], "so-": ["so-"], "calculemus": ["Calculemus"], "inherently": ["inherently"], "express": ["expressed", "express"], "unambiguous": ["unambiguous"], "mathematical": ["mathematical", "mathematical"], "formulae": ["formulae"], "manipulate": ["manipulate", "manipulated"], "prove": ["prove"], "disprove": ["disprove"], "explore": ["explore"], "implication": ["implications"], "theory": ["theory"], "tool": ["tools"], "boundful": ["boundful"], "gift": ["gifts"], "formal": ["Formal", "formal", "formal", "formal", "formal"], "limited": ["limited", "limited"], "recent": ["recent"], "invention": ["invention"], "--and": ["--and"], "hope": ["hopes"], "ardent": ["ardent"], "option": ["options"], "occupy": ["occupies"], "small": ["small"], "niche": ["niche"], "life": ["life"], "skilled": ["skilled"], "concern": ["concerns"], "20": ["20"], "content": ["content"], "effect": ["effects"], "arxiv": ["arXiv"], "truthy": ["truthy"], "belief": ["belief"], "apply": ["applied", "applied", "applied"], "universally": ["universally", "universally"], "expression": ["expression"], "enlightenment": ["enlightenment"], "leibniz": ["Leibniz"], "inventor": ["inventor"], "formulate": ["formulate"], "anything": ["anything", "anything", "anything"], "enough": ["enough", "enough", "enough", "enough"], "conclusively": ["conclusively"], "anticipate": ["anticipated"], "agenda": ["agenda"], "anybody": ["anybody"], "utter": ["uttered"], "imagine": ["imagined", "imagined", "imagined"], "dispute": ["disputes"], "topic": ["topic"], "resolve": ["resolved"], "same": ["same", "same", "same", "same", "same", "same", "same", "same", "same", "same", "same", "same", "same", "same"], "proof": ["proofs"], "bertrand": ["Bertrand"], "russell": ["Russell"], "controversy": ["controversies"], "arise": ["arise"], "dis": ["dis"], "gnat": ["gnat"], "attack": ["attacking"], "face": ["face"], "--no": ["--no"], "disputation": ["disputation"], "philosopher": ["philosophers"], "accountant": ["accountants"], "suffice": ["suffice"], "pencil": ["pencils"], "sit": ["sit", "sitting", "sitting"], "slate": ["slates"], "friend": ["friend"], "witness": ["witness"], "calculate": ["calculate", "calculate", "calculate"], "calcul": ["calcul"], "english": ["English"], "stress": ["stress"], "latin": ["Latin"], "conjugation": ["conjugation"], "verb": ["verb"], "stop": ["stop", "stops"], "crossword": ["crosswords"], "dedicate": ["dedicated"], "significant": ["significant"], "version": ["version"], "throughout": ["throughout", "throughout"], "20th": ["20th"], "century": ["century", "century"], "faith": ["faith", "faith"], "though": ["though", "though", "though", "though"], "dwindle": ["dwindled"], "neuroscientist": ["Neuroscientists"], "process": ["processes", "process", "processes"], "own": ["own", "own"], "brain": ["brains"], "computable": ["computable", "computable"], "huh": ["huh"], "--but": ["--but"], "limit": ["limits"], "propositional": ["propositional"], "fine": ["fine", "fine", "fine", "fine"], "simple": ["simple", "simplest"], "compare": ["comparing"], "sensory": ["sensory"], "approximate": ["approximate", "approximate", "approximate"], "mostly": ["mostly"], "combine": ["combined", "combined"], "recombine": ["recombined"], "further": ["further"], "insight": ["insight"], "inspire": ["inspired"], "development": ["development"], "layer": ["layers"], "drinking": ["Drinking"], "neuroscience": ["neuroscience"], "drink": ["drink", "drink", "drink"], "finish": ["finished", "finish", "finish"], "unfortunately": ["unfortunately"], "water": ["water"], "touch": ["touching", "touched"], "certain": ["certain"], "contextualization": ["contextualization"], "tcav": ["TCAVs"], "annoy": ["annoyed"], "marker": ["marker"], "put": ["put"], "experience": ["experience"], "hear": ["heard"], "movie": ["movies", "movies", "movies"], "encounter": ["encountered", "encountering", "encountered"], "physical": ["physical"], "ride": ["ridden", "ride"], "inform": ["inform"], "embodied": ["embodied"], "multimodal": ["multimodal"], "bound": ["bound"], "extreme": ["extreme"], "misleading": ["misleading"], "usually": ["usually"], "imperfect": ["imperfect", "imperfect"], "irrational": ["irrational"], "approximation": ["approximation", "approximations"], "objective": ["objective"], "rational": ["rational", "rational", "rational", "rational"], "reality": ["reality", "reality"], "physics": ["physics", "physics"], "torque": ["torque"], "friction": ["friction"], "spoke": ["spokes", "spokes", "spokes"], "may": ["may", "may", "may", "may"], "universal": ["universal", "universal", "universal", "universal"], "mental": ["mental", "mental"], "sorry": ["Sorry", "Sorry", "sorry", "sorry"], "certainly": ["certainly"], "change": ["changed", "change", "changing", "changing", "changing", "changing"], "deal": ["deal"], "since": ["since", "Since", "Since"], "19th": ["19th"], "fuzziness": ["fuzziness"], "reinvent": ["reinvent"], "evolve": ["evolved", "evolved", "evolve"], "none": ["None"], "object": ["object", "objecting"], "being": ["beings", "being", "beings"], "psychology": ["psychology", "psychology"], "ethic": ["ethics", "ethics", "ethics", "ethics", "ethics", "ethics", "ethics", "ethics"], "remain": ["remained"], "constant": ["constant"], "lifelong": ["lifelong"], "cultural": ["Cultural", "cultural", "cultural"], "accumulation": ["accumulation"], "generation": ["generation", "Generations"], "pick": ["picks"], "left": ["left"], "absurd": ["absurd"], "current": ["current"], "matter": ["matter", "matter", "matters"], "cherished": ["cherished"], "represent": ["represent"], "successively": ["successively"], "platonic": ["Platonic"], "ideal": ["ideal"], "fair": ["Fair", "fair", "fair", "fair", "Fair", "fair"], "fundamentally": ["fundamentally", "Fundamentally"], "logically": ["logically", "logically"], "canonical": ["canonical", "canonical"], "somewhere": ["somewhere"], "heaven": ["heavens"], "true": ["true", "true"], "abstract": ["abstract", "abstract"], "beauty": ["beauty", "beauty"], "willing": ["willing", "willing"], "feminist": ["feminist"], "technoscience": ["technoscience"], "seriously": ["seriously"], "situate": ["situated"], "agreement": ["agreement", "agreement"], "feel": ["felt", "feels", "feel", "feel"], "paris": ["Paris"], "early": ["earlier"], "museum": ["Museum"], "arts": ["Arts"], "metiers": ["Metiers"], "bunch": ["bunch", "bunch"], "penny": ["penny", "penny"], "farthing": ["farthings", "farthings"], "critical": ["critical"], "mass": ["mass"], "tall": ["tall"], "worry": ["worry"], "fall": ["falling"], "bust": ["busting"], "ass": ["ass"], "raise": ["raising"], "close": ["close", "closing"], "moral": ["moral"], "relativism": ["relativism"], "receive": ["receiving", "receiving"], "discrimination": ["discrimination"], "oppression": ["oppression"], "judge": ["judge", "judges", "judges", "judges", "judges", "judge"], "grant": ["grant"], "grace": ["grace"], "law": ["Laws", "laws", "laws", "law", "law", "laws", "law", "laws", "laws", "Laws", "laws", "laws", "laws", "law", "law", "laws", "law", "law", "laws", "laws"], "robotic": ["robotics"], "fiction": ["fiction", "fiction", "fiction", "fiction"], "writer": ["writer"], "isaac": ["Isaac"], "asimov": ["Asimov"], "--illustrate": ["--illustrate"], "unrealistic": ["unrealistic"], "govern": ["govern"], "behavior": ["behavior", "behavior"], "famous": ["famous"], "injure": ["injure", "injure"], "inaction": ["inaction", "inaction"], "kid": ["kid"], "wait": ["wait"], "control": ["control"], "succeed": ["succeed"], "bug": ["bugged"], "anyway": ["Anyway"], "must": ["must", "must"], "obey": ["obey"], "order": ["orders", "orders"], "except": ["except"], "conflict": ["conflict", "conflict"], "protect": ["protect"], "existence": ["existence"], "protection": ["protection"], "sci": ["sci", "sci"], "fi": ["fi", "fi"], "ensue": ["ensues"], "plot": ["plot"], "honest": ["honest"], "foundation": ["Foundation"], "desire": ["desire"], "past": ["past", "past"], "wear": ["wearing"], "shirt": ["shirt"], "octavia": ["Octavia"], "butler": ["Butler"], "informative": ["informative"], "brood": ["Brood"], "edit": ["edited"], "volume": ["volume"], "adrienne": ["Adrienne"], "maree": ["Maree"], "brown": ["Brown"], "her": ["her", "her"], "inherit": ["inherit"], "inheritor": ["inheritors"], "touchstone": ["touchstone"], "fai": ["FAI"], "crowd": ["crowd"], "digress": ["digress"], "lawyerly": ["lawyerly"], "unusual": ["unusual"], "situation": ["situation", "situation", "situation", "situation", "situation", "situation", "situation", "situations"], "apparently": ["apparently"], "counterintuitive": ["counterintuitive", "counterintuitive", "counterintuitive", "counterintuitive", "counterintuitive"], "hyper": ["hyper"], "surprising": ["surprising"], "spend": ["spent"], "evoke": ["evoking", "evokes", "evokes"], "particular": ["particular"], "reader": ["reader"], "issue": ["issue", "issues"], "debug": ["debugged"], "simply": ["simply", "simply", "simply", "simply", "simply"], "add": ["adding", "added"], "loophole": ["loophole"], "himself": ["himself"], "undertake": ["undertook"], "several": ["several"], "occasion": ["occasions"], "proceed": ["proceeding"], "raw": ["raw"], "stimulus": ["stimuli"], "motor": ["motor"], "leibnizian": ["Leibnizian"], "--to": ["--to"], "constraint": ["constraints"], "clearly": ["clearly", "clearly"], "common": ["common"], "experiment": ["experiments"], "behavioral": ["behavioral"], "economic": ["economics"], "demonstrate": ["demonstrate"], "unexpected": ["Unexpected", "unexpected", "unexpected", "unexpected", "Unexpected", "unexpected"], "result": ["results"], "fault": ["fault", "fault"], "asmiov": ["Asmiov"], "imaginary": ["imaginary", "imaginary"], "entirely": ["entirely", "entirely", "entirely", "entirely"], "ethically": ["ethically", "ethically"], "judgment": ["judgment", "judgments", "judgments", "judgments", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment", "judgments", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment", "judgment"], "al": ["Al"], "attribute": ["attributed"], "radar": ["radar"], "error": ["error", "error", "error", "errors", "error", "error", "errors", "error"], "hal": ["HAL"], "homicidal": ["homicidal"], "tendency": ["tendencies"], "user": ["user", "user", "user", "user"], "landmark": ["landmarks"], "vision": ["visions", "vision", "vision"], "flawed": ["flawed"], "usual": ["usual"], "code": ["code", "code", "code", "code", "code", "code"], "execute": ["executing"], "associate": ["associate"], "instruction": ["instructions"], "policy": ["policies", "policy"], "natural": ["natural", "natural", "natural", "natural", "natural", "natural"], "robotically": ["robotically"], "entail": ["entails"], "interpretation": ["interpretation", "interpretations", "interpretation", "interpretation", "interpretations", "interpretations", "interpretations", "interpretations"], "stuck": ["stuck"], "were-": ["were-"], "abeba": ["Abeba"], "birhane": ["Birhane"], "relational": ["relational"], "rationality": ["rationality"], "relationality": ["relationality"], "punch": ["punch"], "line": ["line"], "ooh": ["Ooh"], "abortion": ["abortion"], "basic": ["basic", "basic"], "noun": ["nouns"], "above": ["above", "above"], "--such": ["--such"], "gain": ["gained"], "urgency": ["urgency"], "repeal": ["repeal"], "roe": ["Roe"], "alone": ["alone"], "weigh": ["weigh"], "interpret": ["interpret", "interpret", "interpreting"], "flexible": ["flexible"], "subtly": ["Subtly"], "decision": ["decisions", "decisions", "decisions", "decision", "decision"], "slight": ["slightest"], "wobble": ["wobble"], "contradiction": ["contradictions"], "after": ["after"], "bet": ["bets"], "compute": ["compute", "compute"], "star": ["Star"], "trek": ["Trek"], "fictional": ["fictional"], "trekkie": ["Trekkie"], "ever": ["ever"], "season": ["seasons"], "foil": ["foil"], "malign": ["malign"], "brett": ["Brett"], "schneider": ["Schneider"], "the-": ["the-", "the-"], "somehow": ["somehow"], "tng": ["TNG"], "actual": ["actual", "actual"], "noonien": ["Noonien"], "sing": ["Sing", "Sing"], "soong": ["Soong"], "creator": ["creator"], "father": ["father"], "dream": ["dream"], "rise": ["rise"], "canon": ["canon", "canon"], "emotion": ["emotion"], "chip": ["chip"], "evil": ["evil"], "brother": ["brother"], "lore": ["Lore"], "lord": ["Lord"], "head": ["head"], "refuse": ["refuse"], "accept": ["accept"], "allowance": ["allowance", "allowance", "allowance"], "creation": ["creation"], "glad": ["glad"], "em": ["Em"], "rusty": ["rusty"], "ds9": ["DS9"], "measure": ["Measure"], "defense": ["defense", "defense"], "serve": ["serve"], "commander": ["commander"], "capacity": ["capacity"], "ability": ["ability"], "subjectivity": ["subjectivity"], "subject": ["subject", "subject", "subject"], "pre": ["pre", "pre", "pre", "pre"], "programmed": ["programmed"], "trolley": ["trolley"], "bank": ["banks"], "break": ["breaking"], "cavalier": ["cavalier"], "substantiate": ["substantiated"], "theorem": ["theorems", "theorem"], "physic": ["physics"], "bind": ["bind"], "stable": ["stable"], "relationship": ["relationships", "relationships"], "algebraic": ["algebraic"], "variable": ["variables"], "distinct": ["distinct"], "calibrate": ["calibrate"], "case": ["case", "case", "case"], "generally": ["generally"], "clarify": ["clarify"], "intent": ["intent"], "scope": ["scope"], "debate": ["debate"], "vary": ["vary"], "linguistics": ["linguistics", "linguistics"], "fantastic": ["fantastic", "fantastic"], "degree": ["degree"], "explanation": ["Explanation", "explanation", "explanation"], "john": ["John"], "levi": ["Levi"], "martin": ["Martin"], "action": ["Action"], "means": ["means"], "adjudicate": ["adjudicating", "adjudicate"], "thought": ["thoughts", "thought", "thought", "thought", "thoughts"], "socially": ["socially", "socially"], "situated": ["situated"], "chapter": ["chapter", "chapter"], "entire": ["entire"], "highlighted": ["highlighted"], "highlight": ["highlight", "highlighted", "highlight"], "choice": ["choice", "choice"], "towrite": ["towrite"], "ethical": ["ethical", "ethical", "ethical"], "superficial": ["superficial"], "resemblance": ["resemblance"], "\u2014": ["\u2014"], "paradigm": ["paradigm"], "applied": ["applied"], "hang": ["Hang"], "presuppose": ["presupposing", "presupposing", "presupposing"], "autonomous": ["autonomous", "autonomous", "autonomous"], "agent": ["agents", "agents", "agent"], "everybody": ["everybody"], "serious": ["serious"], "automation": ["automation"], "design": ["design"], "table": ["table"], "designing": ["designing"], "regulation": ["regulations"], "was-": ["was-"], "paragraph": ["paragraph", "paragraph", "paragraph"], "jump": ["jumping"], "away": ["away", "away"], "independent": ["independent"], "push": ["pushing"], "premise": ["premise"], "plastic": ["plastic", "plastic", "plastic", "plastic", "plastic"], "bag": ["bag", "bag", "bag", "bag", "bag", "bag"], "suffocate": ["suffocate"], "permeable": ["permeable", "permeable"], "impermeable": ["impermeable"], "10": ["10", "10", "10"], "bar": ["bar"], "technicality": ["technicality", "technicality", "technicality"], "consequence": ["consequences", "consequences", "consequences"], "grok": ["grok"], "sentence": ["sentence", "sentence", "sentence", "sentence"], "determined": ["determined", "determined"], "relative": ["relative", "relative"], "thoughtful": ["thoughtful", "thoughtful", "thoughtful", "thoughtful"], "operate": ["operating", "operating", "operating", "operating"], "broad": ["broad", "broad", "broad", "broad", "broad"], "inside": ["inside"], "available": ["available", "available", "available", "available"], "ground": ["ground", "ground", "ground", "ground", "ground", "ground"], "ok": ["ok"], "slowly": ["slowly"], "interpreting": ["interpreting"], "whom": ["whom"], "mm": ["Mm"], "hmm": ["hmm"], "thin": ["thin"], "air": ["air"], "imbue": ["imbued"], "unexpectedly": ["unexpectedly"], "counter": ["counter"], "milieu": ["milieu"], "specifically": ["specifically"], "--errors": ["--errors"], "annotator": ["annotators", "annotators"], "annotate": ["annotate", "annotating"], "someone": ["someone"], "annotation": ["annotation", "annotation", "annotation"], "saturday": ["Saturday"], "morning": ["Morning"], "breakfast": ["Breakfast"], "cereal": ["Cereal"], "comic": ["Comic"], "lewd": ["lewd", "lewd", "lewd"], "einstein": ["Einstein"], "e": ["E"], "=": ["="], "mc2": ["mc2"], "elegant": ["elegant"], "wow": ["wow"], "walk": ["walking"], "hall": ["halls"], "department": ["department"], "yell": ["yelling"], "dick": ["dick"], "grow": ["grew"], "foot": ["feet"], "influence": ["influenced", "influenced", "influences", "influence"], "elegance": ["elegance"], "prestige": ["prestige"], "power": ["power"], "smbc": ["SMBC"], "physicist": ["physicists", "physicists"], "re-": ["re-"], "redefine": ["redefining"], "scientist": ["scientists"], "free": ["free", "frees"], "institution": ["institutions"], "youknow": ["youknow"], "guide": ["guides", "guides"], "accurate": ["accurate"], "harmful": ["harmful"], "noisy": ["noisy"], "contingent": ["contingent", "contingent"], "never": ["never"], "hardly": ["hardly"], "alien": ["alien"], "inscrutable": ["inscrutable"], "fairness": ["fairness", "fairness", "fairness"], "neurips": ["NeurIPS"], "impossibility": ["impossibility"], "meet": ["meet", "meet"], "criterion": ["criteria"], "pause": ["pause"], "briefly": ["briefly"], "caveat": ["caveats"], "again": ["again", "again", "again", "again"], "hop": ["hoping"], "cede": ["ceding"], "making": ["making", "making"], "naturally": ["naturally"], "framing": ["framing"], "teach": ["teach", "teach"], "articulate": ["articulate"], "nuanced": ["nuanced"], "everyone": ["everyone"], "positionality": ["positionality"], "remind": ["reminds"], "relevant": ["relevant", "relevant"], "governance": ["governance"], "desirable": ["desirable"], "alignment": ["alignment"], "throw": ["throw"], "window": ["window"], "wrap": ["wrapping"], "200": ["200"], "prior": ["prior"], "consolidate": ["consolidate"], "lamda": ["LaMDA"], "eniac": ["ENIAC"], "factuality": ["factuality"], "defend": ["defend"], "honor": ["honor"], "apart": ["apart"], "suppose": ["suppose"], "sum": ["sum"], "session": ["sessions"], "dr.": ["Dr."], "flowers": ["Flowers"], "mention": ["mentioned"], "dr": ["Dr"], "lina": ["Lina"], "special": ["special"], "guest": ["guests"], "hit": ["hit"], "button": ["button"], "amy": ["Amy"], "join": ["joining", "joining"], "bye": ["Bye"], "\u2019s": ["\u2019s", "\u2019s", "\u2019s"], "theme": ["theme"], "song": ["song"], "christie": ["Christie"], "taylor": ["Taylor"], "support": ["support"], "donate": ["donating"], "dair-institute.org": ["dair-institute.org"], "d": ["D", "D"], "r": ["R", "R"], "hyphen": ["hyphen"], "dot": ["dot", "dot"], "org": ["org"], "wherever": ["wherever"], "tv": ["TV"], "slash": ["slash"], "underscore": ["underscore", "underscore"], "y\u2019": ["y\u2019"]}unc xyz', [0, 1], [0, 1])
+>>> np.testing.print_assert_equal('Test XYZ of func xyz', [0, 1], [0, 2])
+Traceback (most recent call last):
+...
+AssertionError: Test XYZ of func xyz failed
+ACTUAL:
+[0, 1]
+DESIRED:
+[0, 2]
+
+Tr   Nz failed
+ACTUAL: 
+z
+DESIRED: 
+)Úpprintr   Úwriter_   Úgetvalue)Útest_stringrÊ   rË   rb   rÛ   ra   s         rM   r"   r"   ¬  sm   € ğ8 ĞÛàÓÜ‹jˆØ	‰	+ÔØ	‰	Ğ'Ô(ØŠfÔ"Ø	‰	-Ô ØŠgÔ#Ü˜SŸ\™\›^Ó,Ğ,ğ rL   c                 óà  ^ ^^^^• SnSSK Jn  SSKJnJnJn	   U" T 5      =(       d    U" T5      n
+U UUUU4S jnU
+(       aY  U" T 5      (       a  U" T 5      nU	" T 5      nOT nSnU" T5      (       a  U" T5      nU	" T5      nOTnSn [        XÎTS9  [        XßTS9  [        T U[        [        45      (       d  [        TU[        [        45      (       a  [        T TTT5      $  [        T5      (       a  [        T 5      (       di  [        T5      (       d  [        T 5      (       a2  [        T5      (       a  [        T 5      (       d  [        U" 5       5      e gTT :X  d  [        U" 5       5      eg [#        TT -
+  5      [$        R&                  " S	S
+T* -  -  5      :¼  a  [        U" 5       5      eg! [         a    Sn
+ GNˆf = f! [         a    [        U" 5       5      ef = f! [        [         4 a     Nf = f)aj  
+Raises an AssertionError if two items are not equal up to desired
+precision.
+
+.. note:: It is recommended to use one of `assert_allclose`,
+          `assert_array_almost_equal_nulp` or `assert_array_max_ulp`
+          instead of this function for more consistent floating point
+          comparisons.
+
+The test verifies that the elements of `actual` and `desired` satisfy::
+
+    abs(desired-actual) < float64(1.5 * 10**(-decimal))
+
+That is a looser test than originally documented, but agrees with what the
+actual implementation in `assert_array_almost_equal` did up to rounding
+vagaries. An exception is raised at conflicting values. For ndarrays this
+delegates to assert_array_almost_equal
+
+Parameters
+----------
+actual : array_like
+    The object to check.
+desired : array_like
+    The expected object.
+decimal : int, optional
+    Desired precision, default is 7.
+err_msg : str, optional
+    The error message to be printed in case of failure.
+verbose : bool, optional
+    If True, the conflicting values are appended to the error message.
+
+Raises
+------
+AssertionError
+  If actual and desired are not equal up to specified precision.
+
+See Also
+--------
+assert_allclose: Compare two array_like objects for equality with desired
+                 relative and/or absolute precision.
+assert_array_almost_equal_nulp, assert_array_max_ulp, assert_equal
+
+Examples
+--------
+>>> from numpy.testing import assert_almost_equal
+>>> assert_almost_equal(2.3333333333333, 2.33333334)
+>>> assert_almost_equal(2.3333333333333, 2.33333334, decimal=10)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not almost equal to 10 decimals
+ ACTUAL: 2.3333333333333
+ DESIRED: 2.33333334
+
+>>> assert_almost_equal(np.array([1.0,2.3333333333333]),
+...                     np.array([1.0,2.33333334]), decimal=9)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not almost equal to 9 decimals
+<BLANKLINE>
+Mismatched elements: 1 / 2 (50%)
+Max absolute difference among violations: 6.66669964e-09
+Max relative difference among violations: 2.85715698e-09
+ ACTUAL: array([1.         , 2.333333333])
+ DESIRED: array([1.        , 2.33333334])
+
+Tr   )r   r¶   Fc                  ó*   >• ST-  n [        TT/TTU S9$ )Nú*Arrays are not almost equal to %d decimals)r%   rª   )r   )rª   rÊ   ÚdecimalrË   r©   r%   s    €€€€€rM   Ú_build_err_msgÚ+assert_almost_equal.<locals>._build_err_msg'  s(   ø€ Ø>ÀÑHˆÜ˜f gĞ.°ÀØ$*ñ,ğ 	,rL   )râ   Nç      ø?ç      $@)rÁ   r   rÂ   r·   r¸   r¹   rÃ   r   r_   r£   r¿   r¾   r   r   r   r‹   r^   ÚabsrV   Úfloat64)rÊ   rË   râ   r©   r%   rb   r   r·   r¸   r¹   rÍ   rã   rÎ   rÏ   rĞ   rÑ   s   `````           rM   r   r   Õ  sß  ü€ ğL Ğİ#ß.Ñ.ğ
+Ù! &Ó)×B©\¸'Ó-Bˆ
+÷,ñ ,ö
+ Ù˜×ÑÙ˜6“lˆGÙ˜6“l‰GàˆGØˆGÙ˜× Ñ Ù˜G“}ˆHÙ˜G“}‰HàˆHØˆHğ	3Ü ¸7ÒCÜ ¸7ÒCô &˜7¤E¬4Ğ0×1Ñ1Ü˜' G¬U´DĞ#9×:Ñ:Ü(¨°¸'À7ÓKĞKğô ˜×!Ñ!¤h¨v×&6Ñ&6ÜW~‰~¤ v§¡Ü˜gŸ™¬5°¯=©=Ü(©Ó)9Ó:Ğ:ğ ,9ğ
+ ğ  &Ó(Ü(©Ó)9Ó:Ğ:Øğ '7ô ˆ7VÑÓ¤§
+¢
+¨3°¸¸Ñ1AÑ+AÓ BÓBÜ™^Ó-Ó.Ğ.ğ CøôY ó Ø‹
+ğûô0 ó 	3Ü ¡Ó!1Ó2Ğ2ğ	3ûô$  ¤Ğ+ó Ùğús6   ™F) ÂF< Ã!A1G ÅG Æ)F9Æ8F9Æ<GÇG-Ç,G-c           	      óh  • SnSSK n[        [        X45      u  pX:X  a  gUR                  " SS9   SUR                  " U5      UR                  " U 5      -   -  nUR
+                  " SUR                  " UR                  " U5      5      5      nSSS5         UW-  n U W-  n	[        X/US	U-  US
+9n
+ [        U5      (       a  [        U 5      (       d^  [        U5      (       d  [        U 5      (       a-  [        U5      (       a  [        U 5      (       d  [        U
+5      e gX:X  d  [        U
+5      eg UR                  " X‰-
+  5      UR
+                  " SUS-
+  * 5      :¼  a  [        U
+5      eg! , (       d  f       Nã= f! [         a    Sn Nîf = f! [         a    Sn	 Núf = f! [        [        4 a     N€f = f)a¥  
+Raises an AssertionError if two items are not equal up to significant
+digits.
+
+.. note:: It is recommended to use one of `assert_allclose`,
+          `assert_array_almost_equal_nulp` or `assert_array_max_ulp`
+          instead of this function for more consistent floating point
+          comparisons.
+
+Given two numbers, check that they are approximately equal.
+Approximately equal is defined as the number of significant digits
+that agree.
+
+Parameters
+----------
+actual : scalar
+    The object to check.
+desired : scalar
+    The expected object.
+significant : int, optional
+    Desired precision, default is 7.
+err_msg : str, optional
+    The error message to be printed in case of failure.
+verbose : bool, optional
+    If True, the conflicting values are appended to the error message.
+
+Raises
+------
+AssertionError
+  If actual and desired are not equal up to specified precision.
+
+See Also
+--------
+assert_allclose: Compare two array_like objects for equality with desired
+                 relative and/or absolute precision.
+assert_array_almost_equal_nulp, assert_array_max_ulp, assert_equal
+
+Examples
+--------
+>>> np.testing.assert_approx_equal(0.12345677777777e-20, 0.1234567e-20)
+>>> np.testing.assert_approx_equal(0.12345670e-20, 0.12345671e-20,
+...                                significant=8)
+>>> np.testing.assert_approx_equal(0.12345670e-20, 0.12345672e-20,
+...                                significant=8)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Items are not equal to 8 significant digits:
+ ACTUAL: 1.234567e-21
+ DESIRED: 1.2345672e-21
+
+the evaluated condition that raises the exception is
+
+>>> abs(0.12345670e-20/1e-21 - 0.12345672e-20/1e-21) >= 10**-(8-1)
+True
+
+Tr   NÚignore)Úinvalidg      à?é
+   g        z-Items are not equal to %d significant digits:)rª   r%   ræ   é   )rÂ   ÚmapÚfloatÚerrstaterç   ÚpowerÚfloorÚlog10ÚZeroDivisionErrorr   r   r   r_   r^   r‹   )rÊ   rË   Úsignificantr©   r%   rb   rV   ÚscaleÚ
+sc_desiredÚ	sc_actualra   s              rM   r   r   T  sª  € ğx ĞÛäœE FĞ#4Ó5Ñ€VØÓØğ 
+Š˜XÓ	&ØR—V’V˜G“_ r§v¢v¨f£~Ñ5Ñ6ˆØ—’˜˜RŸXšX b§h¢h¨u£oÓ6Ó7ˆ÷ 
+'ğØ˜U‘]ˆ
+ğØ˜5‘Lˆ	ô Ø	Ğ˜7Ø>ÀÑLØñ€Cğô ˜×!Ñ!¤h¨v×&6Ñ&6ÜW~‰~¤ v§¡Ü˜gŸ™¬5°¯=©=Ü(¨Ó-Ğ-ğ ,9ğ
+ ğ Ó(Ü(¨Ó-Ğ-Øğ '7ğ 
+‡v‚vˆjÑ$Ó%¨¯ª°#¸ÀQ¹Ğ7GÓ)HÓHÜ˜SÓ!Ğ!ğ I÷; 
+'Õ	&ûô
+ ó ØŠ
+ğûô ó ØŠ	ğûô$ Ô*Ğ+ó ÙğúsI   °AE)ÂE: ÂF Â1A,F ÄF Å)
+E7Å:F	ÆF	ÆFÆFÆF1Æ0F1)r²   r«   c	          
+      óÔ  ^^^^^
+^2• SnSSK JnJnJm2JnJnJnJn  [        R                  " U5      n[        R                  " U5      nXnnS nS nS nUS4UUU
+UU4S jjn U	(       a:  UR                  UR                  :H  =(       a    UR                  UR                  :H  nOEUR                  S	:H  =(       d    UR                  S	:H  =(       d    UR                  UR                  :H  nU(       dr  UR                  UR                  :w  a  S
+UR                   SUR                   S3nOSUR                   SUR                   S3n[        X/TU-   TTT
+TS9n[        U5      e[        R                  " S5      nU" U5      (       aC  U" U5      (       a6  U(       a  U" XUSS9nU(       a  UU" XU24S jSS9-  nUU" XU24S jSS9-  nGO,U" U5      (       aO  U" U5      (       aB  U(       a:  UR                  R                  UR                  R                  :X  a  U" X[         SS9nOĞU" U5      (       aÃ  U" U5      (       a¶  UR                  nU(       a£  UUR                  :X  a“  [#        US5      (       a‚  [%        UR&                  [(        5      =(       a     [        R                  " UR&                  5      nSn [        UR&                  5        U(       d  U(       a  U" XXÑR                  R&                  S9nUR,                  S:”  a  UU)    UU)    p!UR.                  S:X  a  g OU(       a  g U " X5      n[        R0                  " U5      n [%        U[        5      (       a  Un[3        U/5      n!O UR5                  5       n!U!R                  5       nUS:w  Ga_  U!R.                  U!R7                  [8        S9-
+  n"UR,                  S:w  a  UR.                  OU!R.                  n#SU"-  U#-  n$SR;                  U"U#U$5      /n%U" SS9   [<        R>                  " [*        5         [A        X-
+  5      n&[        RB                  " UR                  [        RD                  5      (       a#  [A        X!-
+  5      n'[        RF                  " U&U'U&S9  U&U    n(U" U(5      n)[I        U&SU5      U:X  a  U%RK                  S[M        U)5      -   5        OU%RK                  SU" U)5      -   5        [        R                  " US:g  5      n*[        RN                  " U U*5      n+U" U+) 5      (       a  [3        T25      n,O?U&U+   n-[        RP                  " UU&R                  5      n.U.U+   n/U" U-[A        U/5      -  5      n,[I        U&SU5      U:X  a  U%RK                  S [M        U,5      -   5        OU%RK                  S U" U,5      -   5        S S S 5        S S S 5        [M        T5      mTS!S!RS                  U%5      -   -  m[        UU/TTTT
+TS9n[        U5      eg ! [*         a    Sn GN6f = f! , (       d  f       Ng= f! , (       d  f       Np= f! [T         a7    SS K+n0U0RY                  5       n1S"U1 S#T 3m[        X/TTTT
+TS9n[U        U5      ef = f)$NTr   )Úarray2stringr   Úinfrğ   ÚallÚmaxÚobject_c                 ó4   • U R                   R                  S;   $ )Nz?bhilqpBHILQPefdgFDG©rÅ   rÆ   ©Úxs    rM   ÚisnumberÚ&assert_array_compare.<locals>.isnumberÇ  s   € Øw‰w|‰|Ğ5Ñ5Ğ5rL   c                 ó4   • U R                   R                  S;   $ )Nr»   r   r  s    rM   ÚistimeÚ$assert_array_compare.<locals>.istimeÊ  s   € Øw‰w|‰|˜tÑ#Ğ#rL   c                 ó4   • U R                   R                  S:H  $ )NÚTr   r  s    rM   Ú	isvstringÚ'assert_array_compare.<locals>.isvstringÍ  s   € Øw‰w|‰|˜sÑ"Ğ"rL   Únanc           	      ó¬  >• SnU" U 5      nU" U5      n[         R                  " XV:H  5      R                  5       S:w  a   [        X/TSU-  -   TT	T
+TS9n[	        U5      e[        U[        5      (       d  UR                  S:X  a  [         R                  " U5      $ [        U[        5      (       d  UR                  S:X  a  [         R                  " U5      $ U$ )zsHandling nan/inf.
+
+Combine results of running func on x and y, checking that they are True
+at the same locations.
+
+Tz
+%s location mismatch:©r%   rª   r«   r›   r   )rV   Úboolrü   r   r_   r£   Úndim)r  ÚyÚfuncÚhasvalrb   Úx_idÚy_idra   r©   rª   r«   r›   r%   s           €€€€€rM   Úfunc_assert_same_posÚ2assert_array_compare.<locals>.func_assert_same_posĞ  sÆ   ø€ ğ !ĞáA‹wˆÙA‹wˆô 7Š74‘<Ó ×$Ñ$Ó&¨$Ó.ÜØØĞ3Øññ Ø$+°FØØ#ñ%ˆCô ! Ó%Ğ%ô dœD×!Ñ! T§Y¡Y°!£^Ü—7’7˜4“=Ğ Ü˜œd×#Ñ# t§y¡y°A£~Ü—7’7˜4“=Ğ àˆKrL   rD   z	
+(shapes z, z
+ mismatch)z	
+(dtypes r  F)r  r  c                 ó   >• U T7:H  $ ©NrD   ©Úxyrû   s    €rM   rX   Ú&assert_array_compare.<locals>.<lambda>  ó   ø€ ÀÀsÀdÂ
+rL   z+infc                 ó   >• U T* :H  $ r  rD   r  s    €rM   rX   r    r  rL   z-infÚNaTÚ	na_objectrí   ©rÅ   r   z&Mismatched elements: {} / {} ({:.3g}%)rê   )rü   ©ÚoutrÅ   z*Max absolute difference among violations: z*Max relative difference among violations: r˜   zerror during assertion:
+
+z
+
+)-rÁ   rú   r   rû   rğ   rü   rı   rş   rV   Ú
+asanyarrayÚshaperÅ   r   r_   r  rx   r   Úhasattrr£   r   rï   r^   r  ÚsizeÚlogical_notr   ÚravelÚsumr	   rs   Ú
+contextlibÚsuppressrç   Ú
+issubdtypeÚunsignedintegerÚminimumÚgetattrr‘   rŸ   Úlogical_andÚbroadcast_tor¦   rÃ   Ú	tracebackÚ
+format_exc)3Ú
+comparisonr  r  r©   r%   rª   r›   Ú	equal_nanÚ	equal_infr²   r«   rb   rú   r   rğ   rü   rı   rş   ÚoxÚoyr  r  r
+  r  ÚcondÚreasonra   ÚflaggedÚdtÚis_nanÚbool_errorsr`   ÚinvalidsÚreducedÚ
+n_mismatchÚ
+n_elementsÚpercent_mismatchÚremarksÚerrorÚerror2Úreduced_errorÚmax_abs_errorÚnonzeroÚnonzero_and_invalidÚmax_rel_errorÚnonzero_invalid_errorÚbroadcasted_yÚnonzero_invalid_yr3  Úefmtrû   s3      ````   `                                       @rM   r7   r7   ¹  sÄ  ı€ ğ Ğ÷/÷ /ñ /ô 	ŠaÓ€AÜ
+ŠaÓ€Ağ ˆ€Bò6ò$ò#ğ ).°e÷ %ó %ğNJŞØ—7‘7˜aŸg™gÑ%×<¨!¯'©'°Q·W±WÑ*<‰Dà—G‘G˜r‘M×2 Q§W¡W°¡]×I°q·w±wÀ!Ç'Á'Ñ7IˆDŞØw‰w˜!Ÿ'™'Ó!Ø% a§g¡g Y¨b°·±°	¸ĞD‘à% a§g¡g Y¨b°·±°	¸ĞDÜ  Ø 'Ø"(ñ!)à(/¸Ø&+Ø*3ñ5ˆCô ! Ó%Ğ%ä—'’'˜%“.ˆÙA;‰;™8 AŸ;™;ŞÙ.¨q¸%ÈÑNæØÑ/°Ü5JØ7=ñ?ñ ?ğ Ñ/°Ü5JØ7=ñ?ñ ?ùñ AY‰Y™6 !Ÿ9™9æ˜QŸW™WŸ\™\¨Q¯W©W¯\©\Ó9Ù.¨q¼%ÈÑNøáq\‰\™i¨Ÿl™lØ—‘ˆBŞ˜R 1§7¡7›]¬w°r¸;×/GÑ/GÜ$ R§\¡\´5Ó9÷ 1ÜŸ(š( 2§<¡<Ó0ğ àğ$Ü˜Ÿ™Ô&ö [á2Ø 5·±×1BÑ1BñDGğ <‰<˜!ÓØgX‘;  7 (¡ˆqàv‰v˜‹{Øğ æàá˜ÓˆÜ—>’> #Ó&ˆäcœ4× Ñ ØˆDÜ˜S˜E“l‰Gà—i‘i“kˆGØ—;‘;“=ˆDğ 4Œ<Ø Ÿ™¨¯©¼$¨Ğ(?Ñ?ˆJØ)0¯©¸Ó):˜ŸšÀÇÁˆJØ" ZÑ/°*Ñ<Ğà8×?Ñ?Ø 
+Ğ,<ó>ğ?ˆGñ ˜hÓ'ä×(Ò(¬Õ3Ü ¡›JEÜ—}’} Q§W¡W¬b×.@Ñ.@×AÑAÜ!$ Q¡U£˜ÜŸ
+š
+ 5¨&°eÒ<à$)¨(¡OMÙ$'¨Ó$6MÜ˜u g¨wÓ7¸7ÓBØŸ™ØHÜ! -Ó0ñ1õ2ğ  Ÿ™ØHÙ*¨=Ó9ñ:ô;ô !Ÿgšg a¨1¡f›oGÜ*,¯.ª.¸À7Ó*KĞ'áĞ/Ğ/×0Ñ0Ü(-¨c«
+™à05Ğ6IÑ0JĞ-Ü(*¯ª¸¸5¿;¹;Ó(G˜Ø,9Ğ:MÑ,NĞ)Ù(+Ğ,AÜ.1Ğ2CÓ.Dñ-Eó )F˜ô ˜u g¨wÓ7¸7ÓBØŸ™ØHÜ! -Ó0ñ1õ2ğ  Ÿ™ØHÙ*¨=Ó9ñ:ô;÷K 4÷ (ôT ˜'“lˆGØt˜dŸi™i¨Ó0Ñ0Ñ0ˆGÜ  R ¨'Ø(/¸Ø&+Ø*3ñ5ˆCô ! Ó%Ğ%ğq øô= !ó $Ø"#“Kğ$ú÷P 4Õ3ú÷ (Õ'ûôb ó ÛØ×#Ñ#Ó%ˆØ.¨t¨f°D¸¸ĞAˆä˜Q˜F G°WÀVØ"'°9ñ>ˆä˜‹oĞğúsr   Á"IX& Ê5W1 Ë
+AX& ÌX& Ì(CX& Ï;XĞFXÖ#XÖ+AX& ×1X×=X& Ø XØX& Ø
+X	ØXØ
+X#ØX& Ø&AY'r  r  rÊ   rË   z2.0.0)Údep_versionc          
+      ó@   • Sn[        [        R                  XUUSUS9  g)a`  
+Raises an AssertionError if two array_like objects are not equal.
+
+Given two array_like objects, check that the shape is equal and all
+elements of these objects are equal (but see the Notes for the special
+handling of a scalar). An exception is raised at shape mismatch or
+conflicting values. In contrast to the standard usage in numpy, NaNs
+are compared like numbers, no assertion is raised if both objects have
+NaNs in the same positions.
+
+The usual caution for verifying equality with floating point numbers is
+advised.
+
+.. note:: When either `actual` or `desired` is already an instance of
+    `numpy.ndarray` and `desired` is not a ``dict``, the behavior of
+    ``assert_equal(actual, desired)`` is identical to the behavior of this
+    function. Otherwise, this function performs `np.asanyarray` on the
+    inputs before comparison, whereas `assert_equal` defines special
+    comparison rules for common Python types. For example, only
+    `assert_equal` can be used to compare nested Python lists. In new code,
+    consider using only `assert_equal`, explicitly converting either
+    `actual` or `desired` to arrays if the behavior of `assert_array_equal`
+    is desired.
+
+Parameters
+----------
+actual : array_like
+    The actual object to check.
+desired : array_like
+    The desired, expected object.
+err_msg : str, optional
+    The error message to be printed in case of failure.
+verbose : bool, optional
+    If True, the conflicting values are appended to the error message.
+strict : bool, optional
+    If True, raise an AssertionError when either the shape or the data
+    type of the array_like objects does not match. The special
+    handling for scalars mentioned in the Notes section is disabled.
+
+    .. versionadded:: 1.24.0
+
+Raises
+------
+AssertionError
+    If actual and desired objects are not equal.
+
+See Also
+--------
+assert_allclose: Compare two array_like objects for equality with desired
+                 relative and/or absolute precision.
+assert_array_almost_equal_nulp, assert_array_max_ulp, assert_equal
+
+Notes
+-----
+When one of `actual` and `desired` is a scalar and the other is array_like,
+the function checks that each element of the array_like object is equal to
+the scalar. This behaviour can be disabled with the `strict` parameter.
+
+Examples
+--------
+The first assert does not raise an exception:
+
+>>> np.testing.assert_array_equal([1.0,2.33333,np.nan],
+...                               [np.exp(0),2.33333, np.nan])
+
+Assert fails with numerical imprecision with floats:
+
+>>> np.testing.assert_array_equal([1.0,np.pi,np.nan],
+...                               [1, np.sqrt(np.pi)**2, np.nan])
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not equal
+<BLANKLINE>
+Mismatched elements: 1 / 3 (33.3%)
+Max absolute difference among violations: 4.4408921e-16
+Max relative difference among violations: 1.41357986e-16
+ ACTUAL: array([1.      , 3.141593,      nan])
+ DESIRED: array([1.      , 3.141593,      nan])
+
+Use `assert_allclose` or one of the nulp (number of floating point values)
+functions for these cases instead:
+
+>>> np.testing.assert_allclose([1.0,np.pi,np.nan],
+...                            [1, np.sqrt(np.pi)**2, np.nan],
+...                            rtol=1e-10, atol=0)
+
+As mentioned in the Notes section, `assert_array_equal` has special
+handling for scalars. Here the test checks that each value in `x` is 3:
+
+>>> x = np.full((2, 5), fill_value=3)
+>>> np.testing.assert_array_equal(x, 3)
+
+Use `strict` to raise an AssertionError when comparing a scalar with an
+array:
+
+>>> np.testing.assert_array_equal(x, 3, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not equal
+<BLANKLINE>
+(shapes (2, 5), () mismatch)
+ ACTUAL: array([[3, 3, 3, 3, 3],
+       [3, 3, 3, 3, 3]])
+ DESIRED: array(3)
+
+The `strict` parameter also ensures that the array data types match:
+
+>>> x = np.array([2, 2, 2])
+>>> y = np.array([2., 2., 2.], dtype=np.float32)
+>>> np.testing.assert_array_equal(x, y, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not equal
+<BLANKLINE>
+(dtypes int64, float32 mismatch)
+ ACTUAL: array([2, 2, 2])
+ DESIRED: array([2., 2., 2.], dtype=float32)
+TzArrays are not equal)r©   r%   rª   r²   N)r7   ÚoperatorÚ__eq__)rÊ   rË   r©   r%   r²   rb   s         rM   r   r   „  s&   € ğx ĞÜœŸ™¨&À7Ø!(Ğ1GØ &ó(rL   c           
+      ón   ^^^^	^
+• SnSSK Jm	Jm
+  SSKJm  SSKJm  UUUU	U
+4S jn[        X`XUST-  TS9  g	)
+a¼	  
+Raises an AssertionError if two objects are not equal up to desired
+precision.
+
+.. note:: It is recommended to use one of `assert_allclose`,
+          `assert_array_almost_equal_nulp` or `assert_array_max_ulp`
+          instead of this function for more consistent floating point
+          comparisons.
+
+The test verifies identical shapes and that the elements of ``actual`` and
+``desired`` satisfy::
+
+    abs(desired-actual) < 1.5 * 10**(-decimal)
+
+That is a looser test than originally documented, but agrees with what the
+actual implementation did up to rounding vagaries. An exception is raised
+at shape mismatch or conflicting values. In contrast to the standard usage
+in numpy, NaNs are compared like numbers, no assertion is raised if both
+objects have NaNs in the same positions.
+
+Parameters
+----------
+actual : array_like
+    The actual object to check.
+desired : array_like
+    The desired, expected object.
+decimal : int, optional
+    Desired precision, default is 6.
+err_msg : str, optional
+  The error message to be printed in case of failure.
+verbose : bool, optional
+    If True, the conflicting values are appended to the error message.
+
+Raises
+------
+AssertionError
+    If actual and desired are not equal up to specified precision.
+
+See Also
+--------
+assert_allclose: Compare two array_like objects for equality with desired
+                 relative and/or absolute precision.
+assert_array_almost_equal_nulp, assert_array_max_ulp, assert_equal
+
+Examples
+--------
+the first assert does not raise an exception
+
+>>> np.testing.assert_array_almost_equal([1.0,2.333,np.nan],
+...                                      [1.0,2.333,np.nan])
+
+>>> np.testing.assert_array_almost_equal([1.0,2.33333,np.nan],
+...                                      [1.0,2.33339,np.nan], decimal=5)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not almost equal to 5 decimals
+<BLANKLINE>
+Mismatched elements: 1 / 3 (33.3%)
+Max absolute difference among violations: 6.e-05
+Max relative difference among violations: 2.57136612e-05
+ ACTUAL: array([1.     , 2.33333,     nan])
+ DESIRED: array([1.     , 2.33339,     nan])
+
+>>> np.testing.assert_array_almost_equal([1.0,2.33333,np.nan],
+...                                      [1.0,2.33333, 5], decimal=5)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not almost equal to 5 decimals
+<BLANKLINE>
+nan location mismatch:
+ ACTUAL: array([1.     , 2.33333,     nan])
+ DESIRED: array([1.     , 2.33333, 5.     ])
+
+Tr   )ÚnumberÚresult_type)r-  )Úanyc                 ó(  >•  T" [        U 5      5      (       d  T" [        U5      5      (       a`  [        U 5      n[        U5      nX#:H  R                  5       (       d  gU R                  UR                  s=:X  a  S:X  a  O  OX:H  $ X)    n X)    nT
+" US5      n[
+        R                  " X5      n[        X-
+  5      nT" UR                  T	5      (       d  UR                  [
+        R                  5      nUSST* -  -  :  $ ! [        [        4 a     Nf = f)NFrí   g      ğ?rå   ræ   )r   rü   r'  r^   r‹   rV   r$  rç   rÅ   Úastyperè   )r  r  ÚxinfidÚyinfidrÅ   Úzrâ   r-  ÚnpanyrV  rW  s         €€€€€rM   ÚcompareÚ*assert_array_almost_equal.<locals>.compare[  sñ   ø€ ğ	Ù”U˜1“X‰¡%¬¨a«§/¡/Ü˜q›Ü˜q›ØÑ(×-Ñ-×/Ñ/Ø à—6‘6˜QŸV™VÕ( qÖ(Ø™6MØg‘JØg‘Jñ ˜A˜rÓ"ˆÜMŠM˜!Ó#ˆÜ‘‹Jˆá˜!Ÿ'™' 6×*Ñ*Ø—‘œŸ™Ó$ˆAà3˜  Ñ)Ñ)Ñ)Ğ)øô Ô.Ğ/ó 	Ùğ	ús   ƒAC> Á'C> Â
+C> Ã>DÄDrá   )r©   r%   rª   r›   N)rÁ   rV  rW  Únumpy._core.numerictypesr-  Únumpy._core.fromnumericrX  r7   )rÊ   rË   râ   r©   r%   rb   r_  r-  r^  rV  rW  s     `    @@@@rM   r   r     s;   ü€ ğ` Ğß/İ3İ4÷*ñ *ô4 ˜¨'Ø!(ØAÀGÑKØó rL   c                óD   • Sn[        [        R                  XUUSSUSS9	  g)aê  
+Raises an AssertionError if two array_like objects are not ordered by less
+than.
+
+Given two array_like objects `x` and `y`, check that the shape is equal and
+all elements of `x` are strictly less than the corresponding elements of
+`y` (but see the Notes for the special handling of a scalar). An exception
+is raised at shape mismatch or values that are not correctly ordered. In
+contrast to the  standard usage in NumPy, no assertion is raised if both
+objects have NaNs in the same positions.
+
+Parameters
+----------
+x : array_like
+  The smaller object to check.
+y : array_like
+  The larger object to compare.
+err_msg : string
+  The error message to be printed in case of failure.
+verbose : bool
+    If True, the conflicting values are appended to the error message.
+strict : bool, optional
+    If True, raise an AssertionError when either the shape or the data
+    type of the array_like objects does not match. The special
+    handling for scalars mentioned in the Notes section is disabled.
+
+    .. versionadded:: 2.0.0
+
+Raises
+------
+AssertionError
+  If x is not strictly smaller than y, element-wise.
+
+See Also
+--------
+assert_array_equal: tests objects for equality
+assert_array_almost_equal: test objects for equality up to precision
+
+Notes
+-----
+When one of `x` and `y` is a scalar and the other is array_like, the
+function performs the comparison as though the scalar were broadcasted
+to the shape of the array. This behaviour can be disabled with the `strict`
+parameter.
+
+Examples
+--------
+The following assertion passes because each finite element of `x` is
+strictly less than the corresponding element of `y`, and the NaNs are in
+corresponding locations.
+
+>>> x = [1.0, 1.0, np.nan]
+>>> y = [1.1, 2.0, np.nan]
+>>> np.testing.assert_array_less(x, y)
+
+The following assertion fails because the zeroth element of `x` is no
+longer strictly less than the zeroth element of `y`.
+
+>>> y[0] = 1
+>>> np.testing.assert_array_less(x, y)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not strictly ordered `x < y`
+<BLANKLINE>
+Mismatched elements: 1 / 3 (33.3%)
+Max absolute difference among violations: 0.
+Max relative difference among violations: 0.
+ x: array([ 1.,  1., nan])
+ y: array([ 1.,  2., nan])
+
+Here, `y` is a scalar, so each element of `x` is compared to `y`, and
+the assertion passes.
+
+>>> x = [1.0, 4.0]
+>>> y = 5.0
+>>> np.testing.assert_array_less(x, y)
+
+However, with ``strict=True``, the assertion will fail because the shapes
+do not match.
+
+>>> np.testing.assert_array_less(x, y, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not strictly ordered `x < y`
+<BLANKLINE>
+(shapes (2,), () mismatch)
+ x: array([1., 4.])
+ y: array(5.)
+
+With ``strict=True``, the assertion also fails if the dtypes of the two
+arrays do not match.
+
+>>> y = [5, 5]
+>>> np.testing.assert_array_less(x, y, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Arrays are not strictly ordered `x < y`
+<BLANKLINE>
+(dtypes float64, int64 mismatch)
+ x: array([1., 4.])
+ y: array([5, 5])
+Tz'Arrays are not strictly ordered `x < y`F)r  r  )r©   r%   rª   r7  r²   r«   N)r7   rS  Ú__lt__)r  r  r©   r%   r²   rb   s         rM   r   r   {  s,   € ğT ĞÜœŸ™¨!¸Ø!(Ø IØ#(Ø &Ø)ó+rL   c                 ó   • [        X5        g r  )Úexec)Úastrr¼   s     rM   r$   r$   î  s
+   € ÜˆÕrL   c                 ó˜  • SnSSK n[        U [        5      (       d  [        [	        [        U 5      5      5      e[        U[        5      (       d  [        [	        [        U5      5      5      eX:X  a  g[        UR                  5       R                  U R                  S5      UR                  S5      5      5      n/ nU(       GaO  UR                  S5      nUR                  S5      (       a  M1  UR                  S5      (       aü  U/nUR                  S5      nUR                  S5      (       a"  UR                  U5        UR                  S5      nUR                  S5      (       d  [        [	        U5      5      eUR                  U5        U(       aK  UR                  S5      n	U	R                  S5      (       a  UR                  U	5        OUR                  SU	5        USS USS :X  a  GM/  UR                  U5        GMC  [        [	        U5      5      eU(       d  gS	S
+R                  U5      R!                  5        3n
+X:w  a  [        U
+5      eg)aN  
+Test if two strings are equal.
+
+If the given strings are equal, `assert_string_equal` does nothing.
+If they are not equal, an AssertionError is raised, and the diff
+between the strings is shown.
+
+Parameters
+----------
+actual : str
+    The string to test for equality against the expected string.
+desired : str
+    The expected string.
+
+Examples
+--------
+>>> np.testing.assert_string_equal('abc', 'abc')
+>>> np.testing.assert_string_equal('abc', 'abcd')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+...
+AssertionError: Differences in strings:
+- abc+ abcd?    +
+
+Tr   Nz  z- z? z+ é   zDifferences in strings:
+rZ   )Údifflibr£   rŸ   r_   r¤   rx   r¾   ÚDifferr_  r§   ÚpopÚ
+startswithr‘   ÚinsertÚextendr¦   Úrstrip)rÊ   rË   rb   rj  ÚdiffÚ	diff_listÚd1r‰   Úd2Úd3ra   s              rM   r   r   ò  sÕ  € ğ6 ĞÛäfœc×"Ñ"ÜœT¤$ v£,Ó/Ó0Ğ0Ügœs×#Ñ#ÜœT¤$ w£-Ó0Ó1Ğ1ØÓØä—‘Ó ×(Ñ(¨×):Ñ):¸4Ó)@Ø×"Ñ" 4Ó(ó*ó +€Dà€Iß
+ØX‰Xa‹[ˆØ=‰=˜×ÑÙØ=‰=˜×ÑØˆAØ—‘˜!“ˆBØ}‰}˜T×"Ñ"Ø—‘˜”Ø—X‘X˜a“[Ø—=‘= ×&Ñ&Ü$¤T¨"£XÓ.Ğ.ØH‰HRŒLŞØ—X‘X˜a“[Ø—=‘= ×&Ñ&Ø—H‘H˜R•Là—K‘K  2Ô&Ø!"ˆv˜˜A˜B˜ÓÚØ×Ñ˜QÔÚÜœT "›XÓ&Ğ&ŞØØ% b§g¡g¨iÓ&8×&?Ñ&?Ó&AĞ%BĞ
+C€CØÓÜ˜SÓ!Ğ!ğ rL   c                 ó  ^• SSK Jn  SSKnU c%  [        R                  " S5      nUR
+                  S   n [        R                  R                  [        R                  R                  U 5      5      S   nU" XP5      nUR                  5       R                  U5      nUR                  SS9n/ mU(       a  U4S jn	OSn	U H  n
+UR                  X©S	9  M     UR                  S:”  a%  U(       a  [        S
+SR!                  T5      -  5      egg)a  
+Run doctests found in the given file.
+
+By default `rundocs` raises an AssertionError on failure.
+
+Parameters
+----------
+filename : str
+    The path to the file for which the doctests are run.
+raise_on_error : bool
+    Whether to raise an AssertionError when a doctest fails. Default is
+    True.
+
+Notes
+-----
+The doctests can be run by the user/developer by adding the ``doctests``
+argument to the ``test()`` call. For example, to run all tests (including
+doctests) for ``numpy.lib``:
+
+>>> np.lib.test(doctests=True)  # doctest: +SKIP
+r   )Úexec_mod_from_locationNrí   Ú__file__Frº   c                 ó&   >• TR                  U 5      $ r  )r‘   )Úsra   s    €rM   rX   Úrundocs.<locals>.<lambda>\  s   ø€ ˜Ÿ
+™
+ 1œrL   r"  zSome doctests failed:
+%sr˜   )Únumpy.distutils.misc_utilrw  ÚdoctestÚsysÚ	_getframeÚ	f_globalsÚosru   ÚsplitextÚbasenameÚDocTestFinderr    ÚDocTestRunnerÚrunÚfailuresr_   r¦   )ÚfilenameÚraise_on_errorrw  r}  rˆ   ÚnameÚmÚtestsÚrunnerr#  Útestra   s              @rM   r#   r#   9  sç   ø€ õ, AÛØÑÜMŠM˜!ÓˆØ—;‘;˜zÑ*ˆÜ7‰7×ÑœBŸG™G×,Ñ,¨XÓ6Ó7¸Ñ:€DÙ˜tÓ.€Aà×!Ñ!Ó#×(Ñ(¨Ó+€EØ×"Ñ"¨5Ğ"Ğ1€Fà
+€CŞÜ%‰àˆãˆØ
+‰
+4ˆ
+Ó!ñ ğ ‡˜Ó~ÜĞ8¸4¿9¹9ÀS»>ÑIÓJĞJğ  .ĞrL   c                 óĞ   • U (       a  U S   $ SSK nSn UR                  USSS9nSUR                  ;   nU R                  U5        U S   $ ! [        UR                  4 a    Sn N0f = f)z
+
+gh-22982
+r   NÚlscpuT)Úcapture_outputÚtextÚsveF)Ú
+subprocessr†  ÚstdoutÚOSErrorÚSubprocessErrorr‘   )Ú__cacher”  ÚcmdÚoutputÚresults        rM   r>   r>   g  sy   € ö
+ Øq‰zĞãØ
+€CğØ—‘ °D¸tĞDˆØ˜&Ÿ-™-Ñ'ˆğ ‡NN6ÔØ1‰:Ğøô Z×/Ñ/Ğ0ó ØŠğús   ” A
+ Á
+A%Á$A%c                   ó   • \ rS rSrS rSrg)Ú_Dummyi€  c                 ó   • g r  rD   )Úselfs    rM   ÚnopÚ
+_Dummy.nop  s   € ØrL   rD   N)rF   rG   rH   rI   r   rK   rD   rL   rM   r  r  €  s   † õrL   r  r   c                  ó2   • Sn[         R                  " U 0 UD6$ )a  
+assert_raises(exception_class, callable, *args, **kwargs)
+assert_raises(exception_class)
+
+Fail unless an exception of class exception_class is thrown
+by callable when invoked with arguments args and keyword
+arguments kwargs. If a different type of exception is
+thrown, it will not be caught, and the test case will be
+deemed to have suffered an error, exactly as for an
+unexpected exception.
+
+Alternatively, `assert_raises` can be used as a context manager:
+
+>>> from numpy.testing import assert_raises
+>>> with assert_raises(ZeroDivisionError):
+...     1 / 0
+
+is equivalent to
+
+>>> def div(x, y):
+...     return x / y
+>>> assert_raises(ZeroDivisionError, div, 1, 0)
+
+T)Ú_dÚassertRaises)rÉ   Úkwargsrb   s      rM   r   r   ˆ  s   € ğ2 ĞÜ?Š?˜DĞ+ FÑ+Ğ+rL   c                 ó:   • Sn[         R                  " X/UQ70 UD6$ )a¿  
+assert_raises_regex(exception_class, expected_regexp, callable, *args,
+                    **kwargs)
+assert_raises_regex(exception_class, expected_regexp)
+
+Fail unless an exception of class exception_class and with message that
+matches expected_regexp is thrown by callable when invoked with arguments
+args and keyword arguments kwargs.
+
+Alternatively, can be used as a context manager like `assert_raises`.
+
+Notes
+-----
+.. versionadded:: 1.9.0
+
+T)r£  ÚassertRaisesRegex)Úexception_classÚexpected_regexprÉ   r¥  rb   s        rM   r)   r)   ¥  s%   € ğ" ĞÜ×Ò ĞRÀ4ÒRÈ6ÑRĞRrL   c                 ó  • Uc(  [         R                  " S[        R                  -  5      nO[         R                  " U5      nU R                  nSSKJn  UR                  5        Vs/ sH  oT" U5      (       d  M  UPM     nnU Hq  n [        US5      (       a  UR                  nOUR                  n UR                  U5      (       d  MG  UR                  S5      (       a  M_  [        XU" U5      5        Ms     gs  snf ! [         a     Mˆ  f = f)aÄ  
+Apply a decorator to all methods in a class matching a regular expression.
+
+The given decorator is applied to all public methods of `cls` that are
+matched by the regular expression `testmatch`
+(``testmatch.search(methodname)``). Methods that are private, i.e. start
+with an underscore, are ignored.
+
+Parameters
+----------
+cls : class
+    Class whose methods to decorate.
+decorator : function
+    Decorator to apply to methods
+testmatch : compiled regexp or str, optional
+    The regular expression. Default value is None, in which case the
+    nose default (``re.compile(r'(?:^|[\b_\.%s-])[Tt]est' % os.sep)``)
+    is used.
+    If `testmatch` is a string, it is compiled to a regular expression
+    first.
+
+Nz(?:^|[\\b_\\.%s-])[Tt]estr   )Ú
+isfunctionÚcompat_func_nameÚ_)ÚreÚcompiler  ÚsepÚ__dict__Úinspectr«  Úvaluesr&  r¬  rF   ÚAttributeErrorÚsearchrm  Úsetattr)	ÚclsÚ	decoratorÚ	testmatchÚcls_attrr«  Ú_mÚmethodsÚfunctionÚfuncnames	            rM   r   r   º  så   € ğ. ÑÜ—J’JĞ;¼b¿f¹fÑDÓE‰	ä—J’J˜yÓ)ˆ	Ø|‰|€Hõ #à$ŸO™OÔ-Ó@Ñ-b°¸B·rÑ-€GĞ@Ûˆğ	ÜxĞ!3×4Ñ4Ø#×4Ñ4‘à#×,Ñ,‘ğ ×Ñ˜H×%Ó%¨h×.AÑ.AÀ#×.FÓ.FÜC¡9¨XÓ#6Ö7ñ ğ ùò Aøô ó 	âğ	ús$   Á&C9Á9C9ÂC>Â%C>Ã>
+DÄDc                 óô   • [         R                  " S5      nUR                  UR                  pT[	        U SU S3S5      nSn[        5       nXq:  a  US-  n[        XeU5        Xq:  a  M  [        5       U-
+  nSU-  $ )aß  
+Return elapsed time for executing code in the namespace of the caller.
+
+The supplied code string is compiled with the Python builtin ``compile``.
+The precision of the timing is 10 milli-seconds. If the code will execute
+fast on this timescale, it can be executed many times to get reasonable
+timing accuracy.
+
+Parameters
+----------
+code_str : str
+    The code to be timed.
+times : int, optional
+    The number of times the code is executed. Default is 1. The code is
+    only compiled once.
+label : str, optional
+    A label to identify `code_str` with. This is passed into ``compile``
+    as the second argument (for run-time error messages).
+
+Returns
+-------
+elapsed : float
+    Total elapsed time in seconds for executing `code_str` `times` times.
+
+Examples
+--------
+>>> times = 10
+>>> etime = np.testing.measure('for i in range(1000): np.sqrt(i**2)', times=times)
+>>> print("Time for a single execution : ", etime / times, "s")  # doctest: +SKIP
+Time for a single execution :  0.005 s
+
+rí   zTest name: r€   rf  r   g{®Gáz„?)r~  r  Úf_localsr€  r¯  r    rf  )	Úcode_strÚtimesÚlabelÚframeÚlocsÚglobsÚcoder¬   Úelapseds	            rM   r&   r&   é  s|   € ôB MŠM˜!Ó€EØ—.‘. %§/¡/ˆ%ä8˜{¨5¨'°Ğ3°VÓ<€DØ	€AÜ‹i€GØ
+‹)Ø	ˆQ‰ˆÜˆT˜$Ôğ )ô ‹i˜'Ñ!€GØ‰<ĞrL   c                 ó  • [         (       d  gSSKnSSKnUR                  " S5      R	                  SS5      nUnSnUR
+                  " 5          [        R                  " U5      n[        S5       H  nU " X45      nM     [        [        R                  " U5      U:¬  5        UR                  " 5         Ag! UR                  " 5         f = f)z[
+Check that ufuncs don't mishandle refcount of object `1`.
+Used in a few regression tests.
+Tr   Ni'  r   rí   é   )r4   ÚgcrÂ   r   ÚreshapeÚdisabler~  rS   rÀ   r'   Úenable)	ÚoprË  rV   ÚbÚcr¬   ÚrcÚjÚds	            rM   Ú_assert_valid_refcountrÕ    s™   € ÷
+ Š<ØãÛà
+	Š	'Ó×"Ñ" 3¨Ó,€AØ	€AØ	€Aà‡J‚J„LğÜ_Š_˜QÓˆÜr–ˆAÙ1“ŠAñ ä”—’ Ó" bÑ(Ô)à
+	Š	ŒÙ	øğ 		Š	ús   ÁAB2 Â2Cc                ó²   ^^^^• SnSSK mUUUU4S jn	TR                  " U 5      TR                  " U5      pSTS STS 3n
+[        XU[        U5      XjTUS9  g)	uÜ  
+Raises an AssertionError if two objects are not equal up to desired
+tolerance.
+
+Given two array_like objects, check that their shapes and all elements
+are equal (but see the Notes for the special handling of a scalar). An
+exception is raised if the shapes mismatch or any values conflict. In
+contrast to the standard usage in numpy, NaNs are compared like numbers,
+no assertion is raised if both objects have NaNs in the same positions.
+
+The test is equivalent to ``allclose(actual, desired, rtol, atol)`` (note
+that ``allclose`` has different default values). It compares the difference
+between `actual` and `desired` to ``atol + rtol * abs(desired)``.
+
+.. versionadded:: 1.5.0
+
+Parameters
+----------
+actual : array_like
+    Array obtained.
+desired : array_like
+    Array desired.
+rtol : float, optional
+    Relative tolerance.
+atol : float, optional
+    Absolute tolerance.
+equal_nan : bool, optional.
+    If True, NaNs will compare equal.
+err_msg : str, optional
+    The error message to be printed in case of failure.
+verbose : bool, optional
+    If True, the conflicting values are appended to the error message.
+strict : bool, optional
+    If True, raise an ``AssertionError`` when either the shape or the data
+    type of the arguments does not match. The special handling of scalars
+    mentioned in the Notes section is disabled.
+
+    .. versionadded:: 2.0.0
+
+Raises
+------
+AssertionError
+    If actual and desired are not equal up to specified precision.
+
+See Also
+--------
+assert_array_almost_equal_nulp, assert_array_max_ulp
+
+Notes
+-----
+When one of `actual` and `desired` is a scalar and the other is
+array_like, the function performs the comparison as if the scalar were
+broadcasted to the shape of the array.
+This behaviour can be disabled with the `strict` parameter.
+
+Examples
+--------
+>>> x = [1e-5, 1e-3, 1e-1]
+>>> y = np.arccos(np.cos(x))
+>>> np.testing.assert_allclose(x, y, rtol=1e-5, atol=0)
+
+As mentioned in the Notes section, `assert_allclose` has special
+handling for scalars. Here, the test checks that the value of `numpy.sin`
+is nearly zero at integer multiples of Ï€.
+
+>>> x = np.arange(3) * np.pi
+>>> np.testing.assert_allclose(np.sin(x), 0, atol=1e-15)
+
+Use `strict` to raise an ``AssertionError`` when comparing an array
+with one or more dimensions against a scalar.
+
+>>> np.testing.assert_allclose(np.sin(x), 0, atol=1e-15, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Not equal to tolerance rtol=1e-07, atol=1e-15
+<BLANKLINE>
+(shapes (3,), () mismatch)
+ ACTUAL: array([ 0.000000e+00,  1.224647e-16, -2.449294e-16])
+ DESIRED: array(0)
+
+The `strict` parameter also ensures that the array data types match:
+
+>>> y = np.zeros(3, dtype=np.float32)
+>>> np.testing.assert_allclose(np.sin(x), y, atol=1e-15, strict=True)
+Traceback (most recent call last):
+    ...
+AssertionError:
+Not equal to tolerance rtol=1e-07, atol=1e-15
+<BLANKLINE>
+(dtypes float64, float32 mismatch)
+ ACTUAL: array([ 0.000000e+00,  1.224647e-16, -2.449294e-16])
+ DESIRED: array([0., 0., 0.], dtype=float32)
+
+Tr   Nc                 óP   >• TR                   R                  R                  XTTTS9$ )N)ÚrtolÚatolr6  )Ú_coreÚnumericÚisclose)r  r  rÙ  r6  rV   rØ  s     €€€€rM   r_  Ú assert_allclose.<locals>.compare•  s.   ø€ Øx‰x×Ñ×'Ñ'¨°4¸dØ1:ğ (ğ <ğ 	<rL   zNot equal to tolerance rtol=Úgz, atol=)r©   r%   rª   r6  r²   )rÂ   r$  r7   rŸ   )rÊ   rË   rØ  rÙ  r6  r©   r%   r²   rb   r_  rª   rV   s     ```      @rM   r-   r-   1  sd   û€ ğB ĞÛ÷<ğ <ğ —m’m FÓ+¨R¯]ª]¸7Ó-CˆGØ+¨D°¨8°7¸4À¸(ĞC€FÜ˜¨'¼3¸w»<Ø!(À9Ø &ó(rL   c                 óÈ  • SnSSK nUR                  " U 5      nUR                  " U5      nX$R                  " UR                  " XV:„  XV5      5      -  nUR                  " UR                  " X-
+  5      U:*  5      (       de  UR
+                  " U 5      (       d  UR
+                  " U5      (       a  SU S3nO%UR                  " [        X5      5      n	SU SU	S S3n[        U5      eg)	aE  
+Compare two arrays relatively to their spacing.
+
+This is a relatively robust method to compare two arrays whose amplitude
+is variable.
+
+Parameters
+----------
+x, y : array_like
+    Input arrays.
+nulp : int, optional
+    The maximum number of unit in the last place for tolerance (see Notes).
+    Default is 1.
+
+Returns
+-------
+None
+
+Raises
+------
+AssertionError
+    If the spacing between `x` and `y` for one or more elements is larger
+    than `nulp`.
+
+See Also
+--------
+assert_array_max_ulp : Check that all items of arrays differ in at most
+    N Units in the Last Place.
+spacing : Return the distance between x and the nearest adjacent number.
+
+Notes
+-----
+An assertion is raised if the following condition is not met::
+
+    abs(x - y) <= nulp * spacing(maximum(abs(x), abs(y)))
+
+Examples
+--------
+>>> x = np.array([1., 1e-10, 1e-20])
+>>> eps = np.finfo(x.dtype).eps
+>>> np.testing.assert_array_almost_equal_nulp(x, x*eps/2 + x)
+
+>>> np.testing.assert_array_almost_equal_nulp(x, x*eps + x)
+Traceback (most recent call last):
+  ...
+AssertionError: Arrays are not equal to 1 ULP (max is 2)
+
+Tr   NzArrays are not equal to z ULPz ULP (max is rŞ  Ú))	rÂ   rç   ÚspacingÚwhererü   r·   rı   Ú	nulp_diffr_   )
+r  r  Únulprb   rV   ÚaxÚayÚrefra   Úmax_nulps
+             rM   r(   r(      sÇ   € ğb ĞÛØ	Š‹€BØ	Š‹€BØ
+—’˜BŸHšH R¡W¨bÓ5Ó6Ñ
+6€CØ6Š6"—&’&˜™“+ Ñ$×%Ñ%Ø?Š?˜1×Ñ §¢°×!3Ñ!3Ø,¨T¨F°$Ğ7‰Cà—v’vœi¨›oÓ.ˆHØ,¨T¨F°-ÀÈ¸|È1ĞMˆCÜ˜SÓ!Ğ!ğ &rL   c                 óš   • SnSSK n[        XU5      nUR                  " Xb:*  5      (       d  [        SX%R                  " U5      4-  5      eU$ )aå  
+Check that all items of arrays differ in at most N Units in the Last Place.
+
+Parameters
+----------
+a, b : array_like
+    Input arrays to be compared.
+maxulp : int, optional
+    The maximum number of units in the last place that elements of `a` and
+    `b` can differ. Default is 1.
+dtype : dtype, optional
+    Data-type to convert `a` and `b` to if given. Default is None.
+
+Returns
+-------
+ret : ndarray
+    Array containing number of representable floating point numbers between
+    items in `a` and `b`.
+
+Raises
+------
+AssertionError
+    If one or more elements differ by more than `maxulp`.
+
+Notes
+-----
+For computing the ULP difference, this API does not differentiate between
+various representations of NAN (ULP difference between 0x7fc00000 and 0xffc00000
+is zero).
+
+See Also
+--------
+assert_array_almost_equal_nulp : Compare two arrays relatively to their
+    spacing.
+
+Examples
+--------
+>>> a = np.linspace(0., 1., 100)
+>>> res = np.testing.assert_array_max_ulp(a, np.arcsin(np.sin(a)))
+
+Tr   NzCArrays are not almost equal up to %g ULP (max difference is %g ULP))rÂ   rã  rü   r_   rı   )r­   rĞ  ÚmaxulprÅ   rb   rV   Úrets          rM   r*   r*   ß  sW   € ğT ĞÛÜ
+A˜%Ó
+ €CØ6Š6#‘-× Ñ Üğ >à$§f¢f¨S£kĞ2ñ3ó 4ğ 	4ğ €JrL   c                 óÊ  ^• SSK mU(       a!  TR                  " XS9n TR                  " XS9nO$TR                  " U 5      n TR                  " U5      nTR                  " X5      nTR                  " U 5      (       d  TR                  " U5      (       a  [	        S5      eTR
+                  " U /US9n TR
+                  " U/US9nTR                  U TR                  " U 5      '   TR                  UTR                  " U5      '   U R                  UR                  :X  d'  [        SU R                  < SUR                  < 35      eU4S jn[        U 5      n[        U5      nU" XVU5      $ )a  For each item in x and y, return the number of representable floating
+points between them.
+
+Parameters
+----------
+x : array_like
+    first input array
+y : array_like
+    second input array
+dtype : dtype, optional
+    Data-type to convert `x` and `y` to if given. Default is None.
+
+Returns
+-------
+nulp : array_like
+    number of representable floating point numbers between each item in x
+    and y.
+
+Notes
+-----
+For computing the ULP difference, this API does not differentiate between
+various representations of NAN (ULP difference between 0x7fc00000 and 0xffc00000
+is zero).
+
+Examples
+--------
+# By definition, epsilon is the smallest number such as 1 + eps != 1, so
+# there should be exactly one ULP between 1 and 1 + eps
+>>> nulp_diff(1, 1 + np.finfo(x.dtype).eps)
+1.0
+r   Nr!  z'_nulp not implemented for complex arrayz#Arrays do not have the same shape: z - c                 óN   >• TR                   " X-
+  US9nTR                  " U5      $ ©Nr!  )rÄ   rç   )ÚrxÚryÚvdtrq  rV   s       €rM   Ú_diffÚnulp_diff.<locals>._diffI  s#   ø€ ØzŠz˜"™% sÑ+ˆØvŠvd‹|ĞrL   )rÂ   rÄ   Úcommon_typer·   r‹   r   r  r   r%  rÃ   Úinteger_repr)r  r  rÅ   Útrò  rï  rğ  rV   s          @rM   rã  rã    s  ø€ ó@ ŞØJŠJqÑ&ˆØJŠJqÑ&‰àJŠJq‹MˆØJŠJq‹Mˆà
+ŠqÓ€AØ	‡‚q×Ñ˜RŸ_š_¨Q×/Ñ/Ü!Ğ"KÓLĞLà
+Š!˜AÑ€AØ
+Š!˜AÑ€Aà—V‘V€A€b‡h‚hˆqƒkNØ—V‘V€A€b‡h‚hˆqƒkNà7‰7a—g‘gÓİØŸ'œ' 1§7£7ğ,ó -ğ 	-õô 
+a‹€BÜ	a‹€BÙ˜ÓĞrL   c                 ó~   • U R                  U5      nUR                  S:X  d  X#US:     -
+  X3S:  '   U$ US:  a  X#-
+  nU$ )Nrí   r   )Úviewr'  )r  rñ  Úcomprï  s       rM   Ú_integer_reprrú  R  sN   € ğ
+ 
+‰‹€BØG‰Gq‹LØ˜r A™v™JÑ&ˆ‰6‰
+ğ
+ €Iğ ‹6Ø‘ˆBà€IrL   c                 óº  • SSK nU R                  UR                  :X  a&  [        XR                  UR                  " S5      5      $ U R                  UR
+                  :X  a&  [        XR                  UR                  " S5      5      $ U R                  UR                  :X  a&  [        XR                  UR                  " S5      5      $ [        SU R                   35      e)zMReturn the signed-magnitude interpretation of the binary representation
+of x.r   Ni €ÿÿi   €lûÿÿÿ         zUnsupported dtype )
+rÂ   rÅ   Úfloat16rú  Úint16r
+   Úint32rè   Úint64rÃ   )r  rV   s     rM   rõ  rõ  a  sœ   € ó Ø‡ww"—*‘*ÓÜ˜Q§¡¨"¯(ª(°6Ó*:Ó;Ğ;Ø	
+‰B—J‘JÓ	Ü˜Q§¡¨"¯(ª(°6Ó*:Ó;Ğ;Ø	
+‰B—J‘JÓ	Ü˜Q§¡¨"¯(ª(°6Ó*:Ó;Ğ;äĞ-¨a¯g©g¨YĞ7Ó8Ğ8rL   c              #   óÒ   #   • Sn[        5        nUR                  U 5      nS v •  [        U5      S:”  d  Ub  SU 3OSn[        SU-   5      e S S S 5        g ! , (       d  f       g = f7f)NTr   ú when calling rZ   zNo warning raised)r6   Úrecordr¡   r_   )Úwarning_classrŠ  rb   Úsupr‰   Úname_strs         rM   Ú_assert_warns_contextr  o  sc   é € àĞÜ	Ô	 ØJ‰J}Ó%ˆÛÜ1‹v˜‹zØ26Ñ2B˜¨ vÑ.ÈˆHÜ Ğ!4°xÑ!?Ó@Ğ@ğ ÷ 
+×	Ö	üs   ‚A'=AÁ	A'Á
+A$Á A'c                 ó
+  • U(       d  U(       d  [        U 5      $ [        U5      S:  a  SU;   a  [        S5      e[        S5      eUS   nUSS n[        XR                  S9   U" U0 UD6sSSS5        $ ! , (       d  f       g= f)a   
+Fail unless the given callable throws the specified warning.
+
+A warning of class warning_class should be thrown by the callable when
+invoked with arguments args and keyword arguments kwargs.
+If a different type of warning is thrown, it will not be caught.
+
+If called with all arguments other than the warning class omitted, may be
+used as a context manager::
+
+    with assert_warns(SomeWarning):
+        do_something()
+
+The ability to be used as a context manager is new in NumPy v1.11.0.
+
+.. versionadded:: 1.4.0
+
+Parameters
+----------
+warning_class : class
+    The class defining the warning that `func` is expected to throw.
+func : callable, optional
+    Callable to test
+*args : Arguments
+    Arguments for `func`.
+**kwargs : Kwargs
+    Keyword arguments for `func`.
+
+Returns
+-------
+The value returned by `func`.
+
+Examples
+--------
+>>> import warnings
+>>> def deprecated_func(num):
+...     warnings.warn("Please upgrade", DeprecationWarning)
+...     return num*num
+>>> with np.testing.assert_warns(DeprecationWarning):
+...     assert deprecated_func(4) == 16
+>>> # or passing a func
+>>> ret = np.testing.assert_warns(DeprecationWarning, deprecated_func, 4)
+>>> assert ret == 16
+rí   ÚmatchzAassert_warns does not use 'match' kwarg, use pytest.warns insteadz(assert_warns(...) needs at least one argr   N©rŠ  )r  r¡   ÚRuntimeErrorrF   )r  rÉ   r¥  r  s       rM   r+   r+   z  s‚   € öZ Ü$ ]Ó3Ğ3Ü	ˆT‹Q‹ØfÓÜğ+óğ ô ĞEÓFĞFà‰7€DØˆ8€DÜ	˜}·=±=Ó	AÙTĞ$˜VÑ$÷ 
+B×	A×	Aús   Á"A4Á4
+Bc              #   óö   #   • Sn[         R                  " SS9 n[         R                  " S5        S v •  [        U5      S:”  a  U b  SU  3OSn[	        SU SU 35      e S S S 5        g ! , (       d  f       g = f7f)	NT©r  Úalwaysr   r  rZ   zGot warningsr   )ÚwarningsÚcatch_warningsÚsimplefilterr¡   r_   )rŠ  rb   r‰   r  s       rM   Ú_assert_no_warnings_contextr  ·  sr   é € àĞÜ	×	 Ò	 ¨Ò	-°Ü×Ò˜hÔ'ÛÜˆq‹6A‹:Ø26Ñ2B˜¨ vÑ.ÈˆHÜ  <°¨z¸¸A¸3Ğ!?Ó@Ğ@ğ ÷ 
+.×	-Ö	-üs   ‚A9™AA(Á	A9Á(
+A6Á2A9c                  ó¤   • U (       d
+  [        5       $ U S   nU SS n [      
