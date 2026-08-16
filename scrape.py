@@ -1,4 +1,4 @@
-"""Scrape text for transcripts for Buzzsprout site and newsletters from
+"""Scrape text for transcripts from Buzzsprout site and newsletters from
 Buttondown site and create ChromaDB collections with text and relevant
 metadata.
 """
