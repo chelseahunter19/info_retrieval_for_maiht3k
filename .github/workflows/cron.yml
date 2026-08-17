@@ -20,9 +20,6 @@ jobs:
         sudo apt-get install -y git-lfs
         git lfs install
 
-    - name: Install playwright
-      run: playwright install
-    
     - name: Checkout repo
       uses: actions/checkout@v7
       with:
@@ -35,6 +32,9 @@ jobs:
 
     - name: Install dependencies
       run: pip install -r requirements.txt
+
+    - name: Install playwright browser binaries
+      run: playwright install --with-deps
 
     - name: Run script
       run: python scrape.py -m update
