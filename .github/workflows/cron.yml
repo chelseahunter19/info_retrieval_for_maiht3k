@@ -3,7 +3,7 @@ name: Run database update
 on:
   schedule:
     # EDT+4
-    - cron: '0 4 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
