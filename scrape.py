@@ -328,7 +328,7 @@ def add_to_collection(
             updated_bool = False
             return updated_bool
     for link in links:
-        print(link)
+        print(f"Processing {link}")
         if category == "transcripts":
             body, title, timestamp = get_transcript_text(link)
             if not (body and title):
@@ -498,7 +498,7 @@ if __name__ == "__main__":
             for match_method in match_methods:
                 save_bm25_index(corpus, match_method, category)
 
-    print(collection_full.count())
-    print(collection_chunks.count())
-    print(time.time() - start)
+    print(f"Number of documents in full text collection: {collection_full.count()}")
+    print(f"Number of chunks in chunk collection: {collection_chunks.count()}")
+    print(f"Time: {time.time() - start}")
 
